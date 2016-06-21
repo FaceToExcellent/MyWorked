@@ -8,7 +8,7 @@
 
 #import "UIRootViewController.h"
 
-
+#import "FXBLurViewController.h"
 
 @interface UIRootViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView * tableview;
@@ -35,7 +35,7 @@
 -(void)makeUI
 {
     
-    _listArray = @[@"MJ",@""];
+    _listArray = @[@"模糊",@""];
     
     _tableview=[[UITableView alloc]init];
     _tableview.frame=CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
@@ -82,8 +82,8 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.row==0) {
-//        ZXRootTableViewController *vc =[[ZXRootTableViewController alloc]init];
-//        [self.navigationController pushViewController:vc animated:YES];
+        FXBLurViewController *vc =[[FXBLurViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
         
     }
     

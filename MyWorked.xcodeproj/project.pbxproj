@@ -10,6 +10,13 @@
 		603E79CB1D18E7FE009E52AF /* MideasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603E79CA1D18E7FE009E52AF /* MideasTableViewController.m */; };
 		603E79D11D1919C4009E52AF /* ZXRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603E79D01D1919C4009E52AF /* ZXRootTableViewController.m */; };
 		603E79D41D191AD5009E52AF /* UIRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603E79D31D191AD5009E52AF /* UIRootViewController.m */; };
+		603E79D71D191E03009E52AF /* FXBLurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603E79D61D191E03009E52AF /* FXBLurViewController.m */; };
+		603E79DB1D191E53009E52AF /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 603E79DA1D191E53009E52AF /* FXBlurView.m */; };
+		603E79DD1D191F19009E52AF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603E79DC1D191F19009E52AF /* QuartzCore.framework */; };
+		603E79DF1D191F23009E52AF /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603E79DE1D191F23009E52AF /* Accelerate.framework */; };
+		603E79E11D191F2C009E52AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603E79E01D191F2C009E52AF /* UIKit.framework */; };
+		603E79E31D191F33009E52AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603E79E21D191F33009E52AF /* Foundation.framework */; };
+		603E79E51D191F40009E52AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603E79E41D191F40009E52AF /* CoreGraphics.framework */; };
 		603EAB4C1D17FC2100E481FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EAB4B1D17FC2100E481FD /* main.m */; };
 		603EAB4F1D17FC2100E481FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EAB4E1D17FC2100E481FD /* AppDelegate.m */; };
 		603EAB571D17FC2100E481FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603EAB561D17FC2100E481FD /* Assets.xcassets */; };
@@ -32,6 +39,15 @@
 		603E79D01D1919C4009E52AF /* ZXRootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXRootTableViewController.m; sourceTree = "<group>"; };
 		603E79D21D191AD5009E52AF /* UIRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIRootViewController.h; sourceTree = "<group>"; };
 		603E79D31D191AD5009E52AF /* UIRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIRootViewController.m; sourceTree = "<group>"; };
+		603E79D51D191E03009E52AF /* FXBLurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBLurViewController.h; sourceTree = "<group>"; };
+		603E79D61D191E03009E52AF /* FXBLurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBLurViewController.m; sourceTree = "<group>"; };
+		603E79D91D191E53009E52AF /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		603E79DA1D191E53009E52AF /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		603E79DC1D191F19009E52AF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		603E79DE1D191F23009E52AF /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		603E79E01D191F2C009E52AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		603E79E21D191F33009E52AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		603E79E41D191F40009E52AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		603EAB471D17FC2100E481FD /* MyWorked.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWorked.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		603EAB4B1D17FC2100E481FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		603EAB4D1D17FC2100E481FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +76,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603E79E51D191F40009E52AF /* CoreGraphics.framework in Frameworks */,
+				603E79E31D191F33009E52AF /* Foundation.framework in Frameworks */,
+				603E79E11D191F2C009E52AF /* UIKit.framework in Frameworks */,
+				603E79DF1D191F23009E52AF /* Accelerate.framework in Frameworks */,
+				603E79DD1D191F19009E52AF /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +92,8 @@
 			children = (
 				603E79D21D191AD5009E52AF /* UIRootViewController.h */,
 				603E79D31D191AD5009E52AF /* UIRootViewController.m */,
-				603E79CE1D19194F009E52AF /* freamWork */,
+				603E79D51D191E03009E52AF /* FXBLurViewController.h */,
+				603E79D61D191E03009E52AF /* FXBLurViewController.m */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -98,8 +120,23 @@
 		603E79CE1D19194F009E52AF /* freamWork */ = {
 			isa = PBXGroup;
 			children = (
+				603E79E41D191F40009E52AF /* CoreGraphics.framework */,
+				603E79E21D191F33009E52AF /* Foundation.framework */,
+				603E79E01D191F2C009E52AF /* UIKit.framework */,
+				603E79DE1D191F23009E52AF /* Accelerate.framework */,
+				603E79DC1D191F19009E52AF /* QuartzCore.framework */,
+				603E79D81D191E53009E52AF /* FXBlurView */,
 			);
 			name = freamWork;
+			sourceTree = "<group>";
+		};
+		603E79D81D191E53009E52AF /* FXBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				603E79D91D191E53009E52AF /* FXBlurView.h */,
+				603E79DA1D191E53009E52AF /* FXBlurView.m */,
+			);
+			path = FXBlurView;
 			sourceTree = "<group>";
 		};
 		603EAB3E1D17FC2100E481FD = {
@@ -121,7 +158,6 @@
 		603EAB491D17FC2100E481FD /* MyWorked */ = {
 			isa = PBXGroup;
 			children = (
-				603EAB611D17FC4500E481FD /* 7.gif */,
 				603EAB4D1D17FC2100E481FD /* AppDelegate.h */,
 				603EAB4E1D17FC2100E481FD /* AppDelegate.m */,
 				603EAB6E1D17FC8200E481FD /* RootViewController.h */,
@@ -136,6 +172,8 @@
 		603EAB4A1D17FC2100E481FD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				603EAB611D17FC4500E481FD /* 7.gif */,
+				603E79CE1D19194F009E52AF /* freamWork */,
 				603EAB7E1D17FC9F00E481FD /* area.plist */,
 				603EAB561D17FC2100E481FD /* Assets.xcassets */,
 				603EAB5B1D17FC2100E481FD /* Info.plist */,
@@ -224,6 +262,8 @@
 				603E79CB1D18E7FE009E52AF /* MideasTableViewController.m in Sources */,
 				603EAB7B1D17FC8200E481FD /* tieziceshiViewController.m in Sources */,
 				603E79D11D1919C4009E52AF /* ZXRootTableViewController.m in Sources */,
+				603E79D71D191E03009E52AF /* FXBLurViewController.m in Sources */,
+				603E79DB1D191E53009E52AF /* FXBlurView.m in Sources */,
 				603EAB4F1D17FC2100E481FD /* AppDelegate.m in Sources */,
 				603EAB7C1D17FC8200E481FD /* TopsearchViewController.m in Sources */,
 				603EAB791D17FC8200E481FD /* OOOPPPViewController.m in Sources */,
