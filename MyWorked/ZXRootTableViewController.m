@@ -1,41 +1,42 @@
 //
-//  RootViewController.m
-//  MyIdeas
+//  ZXRootTableViewController.m
+//  MyWorked
 //
-//  Created by HYZ on 16/5/31.
+//  Created by HYZ on 16/6/21.
 //  Copyright © 2016年 HYZ. All rights reserved.
 //
-
-#import "RootViewController.h"
-
 #import "ZXRootTableViewController.h"
-#import "UIRootViewController.h"
-@interface RootViewController ()<UITableViewDelegate,UITableViewDataSource>
+#import "tieziceshiViewController.h"
+#import "OOOPPPViewController.h"
+#import "TopsearchViewController.h"
+#import "ViewActionViewController.h"
+#import "MideasTableViewController.h"
+@interface ZXRootTableViewController()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView * tableview;
 @property(nonatomic,strong)NSArray *listArray;
 @end
 
-@implementation RootViewController
+@implementation ZXRootTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     //self.view.backgroundColor=[UIColor blueColor];
-    self.title=@"练习列表";
+    self.title=@"杂项";
     
     [self.navigationController.navigationBar setTitleTextAttributes:
      
-  @{NSFontAttributeName:[UIFont systemFontOfSize:19],
-    
-    NSForegroundColorAttributeName:[UIColor blueColor]}];
+     @{NSFontAttributeName:[UIFont systemFontOfSize:19],
+       
+       NSForegroundColorAttributeName:[UIColor blueColor]}];
     //加了背景图片就不用加 64 位移了
     
-     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"11"] forBarMetrics:UIBarMetricsDefault];
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"11"] forBarMetrics:UIBarMetricsDefault];
     [self makeUI];
 }
 -(void)makeUI
 {
     
-    _listArray = @[@"杂项",@"UI"];
+    _listArray = @[@"新人在开发初期遇到的各种问题",@"分组点击收起与展开",@"顶部搜索城市",@"改变图片颜色",@"知识点整理2"];
     
     _tableview=[[UITableView alloc]init];
     _tableview.frame=CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
@@ -82,16 +83,35 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.row==0) {
-        ZXRootTableViewController *vc =[[ZXRootTableViewController alloc]init];
-        [self.navigationController pushViewController:vc animated:YES];
-        
-    }
-    if (indexPath.row==1) {
-        UIRootViewController *vc =[[UIRootViewController alloc]init];
+        tieziceshiViewController *vc =[[tieziceshiViewController alloc]init];
         [self.navigationController pushViewController:vc animated:YES];
         
     }
     
+    if (indexPath.row==1) {
+        OOOPPPViewController *vc =[[OOOPPPViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+        
+    }
+    if (indexPath.row==2) {
+        TopsearchViewController *vc =[[TopsearchViewController alloc]init];
+        
+        [self.navigationController pushViewController:vc animated:YES];
+        
+    }
+    if (indexPath.row==3) {
+        ViewActionViewController *vc =[[ViewActionViewController alloc]init];
+        
+        [self.navigationController pushViewController:vc animated:YES];
+        
+    }
+    
+    if (indexPath.row==4) {
+        MideasTableViewController *vc =[[MideasTableViewController alloc]init];
+        
+        [self.navigationController pushViewController:vc animated:YES];
+        
+    }
 }
 
 //补全 下划线
@@ -117,13 +137,15 @@
 }
 
 /*
-#pragma mark - Navigation
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+
 
 @end

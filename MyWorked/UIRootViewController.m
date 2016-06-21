@@ -1,41 +1,41 @@
 //
-//  RootViewController.m
-//  MyIdeas
+//  UIRootViewController.m
+//  MyWorked
 //
-//  Created by HYZ on 16/5/31.
+//  Created by HYZ on 16/6/21.
 //  Copyright © 2016年 HYZ. All rights reserved.
 //
 
-#import "RootViewController.h"
-
-#import "ZXRootTableViewController.h"
 #import "UIRootViewController.h"
-@interface RootViewController ()<UITableViewDelegate,UITableViewDataSource>
+
+
+
+@interface UIRootViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView * tableview;
 @property(nonatomic,strong)NSArray *listArray;
 @end
 
-@implementation RootViewController
+@implementation UIRootViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     //self.view.backgroundColor=[UIColor blueColor];
-    self.title=@"练习列表";
+    self.title=@"UI";
     
     [self.navigationController.navigationBar setTitleTextAttributes:
      
-  @{NSFontAttributeName:[UIFont systemFontOfSize:19],
-    
-    NSForegroundColorAttributeName:[UIColor blueColor]}];
+     @{NSFontAttributeName:[UIFont systemFontOfSize:19],
+       
+       NSForegroundColorAttributeName:[UIColor blueColor]}];
     //加了背景图片就不用加 64 位移了
     
-     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"11"] forBarMetrics:UIBarMetricsDefault];
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"11"] forBarMetrics:UIBarMetricsDefault];
     [self makeUI];
 }
 -(void)makeUI
 {
     
-    _listArray = @[@"杂项",@"UI"];
+    _listArray = @[@"MJ",@""];
     
     _tableview=[[UITableView alloc]init];
     _tableview.frame=CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
@@ -82,15 +82,11 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.row==0) {
-        ZXRootTableViewController *vc =[[ZXRootTableViewController alloc]init];
-        [self.navigationController pushViewController:vc animated:YES];
+//        ZXRootTableViewController *vc =[[ZXRootTableViewController alloc]init];
+//        [self.navigationController pushViewController:vc animated:YES];
         
     }
-    if (indexPath.row==1) {
-        UIRootViewController *vc =[[UIRootViewController alloc]init];
-        [self.navigationController pushViewController:vc animated:YES];
-        
-    }
+    
     
 }
 
@@ -117,13 +113,14 @@
 }
 
 /*
-#pragma mark - Navigation
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		603E79CB1D18E7FE009E52AF /* MideasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603E79CA1D18E7FE009E52AF /* MideasTableViewController.m */; };
+		603E79D11D1919C4009E52AF /* ZXRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603E79D01D1919C4009E52AF /* ZXRootTableViewController.m */; };
+		603E79D41D191AD5009E52AF /* UIRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603E79D31D191AD5009E52AF /* UIRootViewController.m */; };
 		603EAB4C1D17FC2100E481FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EAB4B1D17FC2100E481FD /* main.m */; };
 		603EAB4F1D17FC2100E481FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EAB4E1D17FC2100E481FD /* AppDelegate.m */; };
 		603EAB571D17FC2100E481FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603EAB561D17FC2100E481FD /* Assets.xcassets */; };
@@ -26,6 +28,10 @@
 /* Begin PBXFileReference section */
 		603E79C91D18E7FE009E52AF /* MideasTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MideasTableViewController.h; sourceTree = "<group>"; };
 		603E79CA1D18E7FE009E52AF /* MideasTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MideasTableViewController.m; sourceTree = "<group>"; };
+		603E79CF1D1919C4009E52AF /* ZXRootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXRootTableViewController.h; sourceTree = "<group>"; };
+		603E79D01D1919C4009E52AF /* ZXRootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXRootTableViewController.m; sourceTree = "<group>"; };
+		603E79D21D191AD5009E52AF /* UIRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIRootViewController.h; sourceTree = "<group>"; };
+		603E79D31D191AD5009E52AF /* UIRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIRootViewController.m; sourceTree = "<group>"; };
 		603EAB471D17FC2100E481FD /* MyWorked.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWorked.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		603EAB4B1D17FC2100E481FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		603EAB4D1D17FC2100E481FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +66,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		603E79CC1D19189A009E52AF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				603E79D21D191AD5009E52AF /* UIRootViewController.h */,
+				603E79D31D191AD5009E52AF /* UIRootViewController.m */,
+				603E79CE1D19194F009E52AF /* freamWork */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		603E79CD1D1918B0009E52AF /* 杂项 */ = {
+			isa = PBXGroup;
+			children = (
+				603EAB6C1D17FC8200E481FD /* OOOPPPViewController.h */,
+				603EAB6D1D17FC8200E481FD /* OOOPPPViewController.m */,
+				603EAB701D17FC8200E481FD /* tieziceshiViewController.h */,
+				603EAB711D17FC8200E481FD /* tieziceshiViewController.m */,
+				603EAB721D17FC8200E481FD /* TopsearchViewController.h */,
+				603EAB731D17FC8200E481FD /* TopsearchViewController.m */,
+				603EAB741D17FC8200E481FD /* ViewActionViewController.h */,
+				603EAB751D17FC8200E481FD /* ViewActionViewController.m */,
+				603E79C91D18E7FE009E52AF /* MideasTableViewController.h */,
+				603E79CA1D18E7FE009E52AF /* MideasTableViewController.m */,
+				603E79CF1D1919C4009E52AF /* ZXRootTableViewController.h */,
+				603E79D01D1919C4009E52AF /* ZXRootTableViewController.m */,
+			);
+			name = "杂项";
+			sourceTree = "<group>";
+		};
+		603E79CE1D19194F009E52AF /* freamWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = freamWork;
+			sourceTree = "<group>";
+		};
 		603EAB3E1D17FC2100E481FD = {
 			isa = PBXGroup;
 			children = (
@@ -84,16 +126,8 @@
 				603EAB4E1D17FC2100E481FD /* AppDelegate.m */,
 				603EAB6E1D17FC8200E481FD /* RootViewController.h */,
 				603EAB6F1D17FC8200E481FD /* RootViewController.m */,
-				603EAB6C1D17FC8200E481FD /* OOOPPPViewController.h */,
-				603EAB6D1D17FC8200E481FD /* OOOPPPViewController.m */,
-				603EAB701D17FC8200E481FD /* tieziceshiViewController.h */,
-				603EAB711D17FC8200E481FD /* tieziceshiViewController.m */,
-				603EAB721D17FC8200E481FD /* TopsearchViewController.h */,
-				603EAB731D17FC8200E481FD /* TopsearchViewController.m */,
-				603EAB741D17FC8200E481FD /* ViewActionViewController.h */,
-				603EAB751D17FC8200E481FD /* ViewActionViewController.m */,
-				603E79C91D18E7FE009E52AF /* MideasTableViewController.h */,
-				603E79CA1D18E7FE009E52AF /* MideasTableViewController.m */,
+				603E79CD1D1918B0009E52AF /* 杂项 */,
+				603E79CC1D19189A009E52AF /* UI */,
 				603EAB4A1D17FC2100E481FD /* Supporting Files */,
 			);
 			path = MyWorked;
@@ -186,8 +220,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603E79D41D191AD5009E52AF /* UIRootViewController.m in Sources */,
 				603E79CB1D18E7FE009E52AF /* MideasTableViewController.m in Sources */,
 				603EAB7B1D17FC8200E481FD /* tieziceshiViewController.m in Sources */,
+				603E79D11D1919C4009E52AF /* ZXRootTableViewController.m in Sources */,
 				603EAB4F1D17FC2100E481FD /* AppDelegate.m in Sources */,
 				603EAB7C1D17FC8200E481FD /* TopsearchViewController.m in Sources */,
 				603EAB791D17FC8200E481FD /* OOOPPPViewController.m in Sources */,
