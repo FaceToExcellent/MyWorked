@@ -51,7 +51,7 @@
 {
     //模糊动画感觉并不很好 本身的模糊为 0 的时候 视图还是会有点不清晰 应该适用于那种 推上来的情况 由一侧推出 就像iPhone的底部上滑
     
-    //个人觉得 另一个 swift版本的模糊写的更好 地址 ：https://github.com/szk-atmosphere/SABlurImageView
+    //个人觉得 另一个 swift版本的模糊写的更好 地址 ：https://github.com/szk-atmosphere/SABlurImageView或者 https://github.com/FlexMonkey/Blurable 
     if (_fView.blurRadius < 5)
     {
         [UIView animateWithDuration:0.01 animations:^{

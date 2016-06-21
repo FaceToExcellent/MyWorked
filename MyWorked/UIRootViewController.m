@@ -9,7 +9,7 @@
 #import "UIRootViewController.h"
 
 #import "FXBLurViewController.h"
-
+#import "AutoLayoutViewController.h"
 @interface UIRootViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView * tableview;
 @property(nonatomic,strong)NSArray *listArray;
@@ -35,7 +35,7 @@
 -(void)makeUI
 {
     
-    _listArray = @[@"模糊",@""];
+    _listArray = @[@"模糊",@"AutoLayout"];
     
     _tableview=[[UITableView alloc]init];
     _tableview.frame=CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
@@ -87,6 +87,11 @@
         
     }
     
+    if (indexPath.row==1) {
+        AutoLayoutViewController *vc =[[AutoLayoutViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+        
+    }
     
 }
 

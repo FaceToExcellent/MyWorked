@@ -17,6 +17,7 @@
 		603E79E11D191F2C009E52AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603E79E01D191F2C009E52AF /* UIKit.framework */; };
 		603E79E31D191F33009E52AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603E79E21D191F33009E52AF /* Foundation.framework */; };
 		603E79E51D191F40009E52AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603E79E41D191F40009E52AF /* CoreGraphics.framework */; };
+		603E79E81D192784009E52AF /* AutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603E79E71D192784009E52AF /* AutoLayoutViewController.m */; };
 		603EAB4C1D17FC2100E481FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EAB4B1D17FC2100E481FD /* main.m */; };
 		603EAB4F1D17FC2100E481FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EAB4E1D17FC2100E481FD /* AppDelegate.m */; };
 		603EAB571D17FC2100E481FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603EAB561D17FC2100E481FD /* Assets.xcassets */; };
@@ -48,6 +49,8 @@
 		603E79E01D191F2C009E52AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		603E79E21D191F33009E52AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		603E79E41D191F40009E52AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		603E79E61D192784009E52AF /* AutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutViewController.h; sourceTree = "<group>"; };
+		603E79E71D192784009E52AF /* AutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
 		603EAB471D17FC2100E481FD /* MyWorked.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWorked.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		603EAB4B1D17FC2100E481FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		603EAB4D1D17FC2100E481FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -94,6 +97,8 @@
 				603E79D31D191AD5009E52AF /* UIRootViewController.m */,
 				603E79D51D191E03009E52AF /* FXBLurViewController.h */,
 				603E79D61D191E03009E52AF /* FXBLurViewController.m */,
+				603E79E61D192784009E52AF /* AutoLayoutViewController.h */,
+				603E79E71D192784009E52AF /* AutoLayoutViewController.m */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 				603E79D41D191AD5009E52AF /* UIRootViewController.m in Sources */,
 				603E79CB1D18E7FE009E52AF /* MideasTableViewController.m in Sources */,
 				603EAB7B1D17FC8200E481FD /* tieziceshiViewController.m in Sources */,
+				603E79E81D192784009E52AF /* AutoLayoutViewController.m in Sources */,
 				603E79D11D1919C4009E52AF /* ZXRootTableViewController.m in Sources */,
 				603E79D71D191E03009E52AF /* FXBLurViewController.m in Sources */,
 				603E79DB1D191E53009E52AF /* FXBlurView.m in Sources */,
