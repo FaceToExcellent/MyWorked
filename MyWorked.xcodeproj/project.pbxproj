@@ -79,10 +79,10 @@
 				603EAB611D17FC4500E481FD /* 7.gif */,
 				603EAB4D1D17FC2100E481FD /* AppDelegate.h */,
 				603EAB4E1D17FC2100E481FD /* AppDelegate.m */,
-				603EAB6C1D17FC8200E481FD /* OOOPPPViewController.h */,
-				603EAB6D1D17FC8200E481FD /* OOOPPPViewController.m */,
 				603EAB6E1D17FC8200E481FD /* RootViewController.h */,
 				603EAB6F1D17FC8200E481FD /* RootViewController.m */,
+				603EAB6C1D17FC8200E481FD /* OOOPPPViewController.h */,
+				603EAB6D1D17FC8200E481FD /* OOOPPPViewController.m */,
 				603EAB701D17FC8200E481FD /* tieziceshiViewController.h */,
 				603EAB711D17FC8200E481FD /* tieziceshiViewController.m */,
 				603EAB721D17FC8200E481FD /* TopsearchViewController.h */,
@@ -319,6 +319,7 @@
 				603EAB601D17FC2100E481FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -48,7 +48,15 @@
     self.tableView.tableHeaderView = _searchC.searchBar;
    
     
-   
+    _searchC.searchBar.showsCancelButton = YES;
+    for (id searchBtn in [_searchC.searchBar.subviews[0] subviews]) {
+        if ([searchBtn isKindOfClass:[UIButton class]]) {
+            UIButton *cancalBtn = (UIButton *)searchBtn;
+            cancalBtn.enabled = YES;
+            [cancalBtn setTitle:@"取消" forState:UIControlStateNormal];
+            break;
+        }
+    }
     
     
     [self loadDataFormPlist];
