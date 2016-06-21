@@ -4,7 +4,7 @@
 //
 //  Created by HYZ on 16/6/21.
 //  Copyright © 2016年 HYZ. All rights reserved.
-//
+// https://github.com/Tim9Liu9/TimLiu-iOS#下拉刷新
 
 #import "FXBLurViewController.h"
 #import "FXBlurView.h"// 模糊效果 对于 UIView  需要 库 QuartzCore Accelerate uikit foundation CoreGraphics 
@@ -24,18 +24,21 @@
 -(void)makeUI
 {
     UIImageView * image  =[[UIImageView alloc]init];
-    image.frame=CGRectMake(20, 20, 100, 100);
+    image.frame=CGRectMake(20, 20, 200, 200);
     image.image=[UIImage imageNamed:@"11"];
     [self.view addSubview:image];
     
     _fView=[[FXBlurView alloc]init];
-    _fView.frame=CGRectMake(20, 20, 100, 100);
-    _fView.blurRadius=0;//模糊半径 越大越模糊 
-    [self.view addSubview:_fView];
+    _fView.frame=CGRectMake(20, 20, 200, 200);
+    _fView.blurRadius=0;//模糊半径 越大越模糊
+    _fView.dynamic=YES;//是否动态更新
+    _fView.tintColor=[UIColor clearColor];//本身颜色
+    //_fView.updateInterval= 1.0; 更新时间间隔
+    [image addSubview:_fView];
     
     
     _button = [[UIButton alloc]init];
-    _button.frame = CGRectMake(20, 150, 50, 50);
+    _button.frame = CGRectMake(20, 250, 50, 50);
     _button.backgroundColor =[UIColor grayColor];
     _button.tag=1;
     [_button addTarget:self action:@selector(buttonCLick:) forControlEvents:UIControlEventTouchUpInside];
@@ -46,15 +49,18 @@
 }
 -(void)buttonCLick:(UIButton*)sender
 {
+    //模糊动画感觉并不很好 本身的模糊为 0 的时候 视图还是会有点不清晰 应该适用于那种 推上来的情况 由一侧推出 就像iPhone的底部上滑
+    
+    //个人觉得 另一个 swift版本的模糊写的更好 地址 ：https://github.com/szk-atmosphere/SABlurImageView
     if (_fView.blurRadius < 5)
     {
-        [UIView animateWithDuration:0.5 animations:^{
-            _fView.blurRadius = 10;
+        [UIView animateWithDuration:0.01 animations:^{
+            _fView.blurRadius = 40;
         }];
     }
     else
     {
-        [UIView animateWithDuration:0.5 animations:^{
+        [UIView animateWithDuration:0.01 animations:^{
            _fView.blurRadius = 0;
         }];
     }
