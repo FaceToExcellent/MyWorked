@@ -122,6 +122,9 @@
      // NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
      // [_centerTableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionTop animated:YES];
      [_centerTableView setContentOffset:(CGPoint){0,0} animated:YES];*/
+    
+   #pragma mark   //19.could not find developer image  
+    //Xcode版本不够手机高
 }
 
 -(void)buttonCLick:(UIButton*)sender
