@@ -35,7 +35,7 @@
 -(void)makeUI
 {
     
-    _listArray = @[@"杂项",@"UI"];
+    _listArray = @[@"杂项",@"UI",@"动画",@"网络",@"通讯录",@"其他库",@"数据库",@"缓存处理",@"PDF",@"图像浏览及处理",@"摄像照相视频音频处理",@"响应式框架",@"消息相关",@"代码安全与密码",@"动态更新",@"AppleWatch",@"VPN",@"待增加"];
     
     _tableview=[[UITableView alloc]init];
     _tableview.frame=CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
@@ -72,7 +72,7 @@
         cell.selectionStyle=UITableViewCellSelectionStyleNone;
         
         cell =[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"id"];
-        cell.textLabel.text= _listArray[indexPath.row];
+        cell.textLabel.text= [NSString stringWithFormat:@"%ld---%@",indexPath.row,_listArray[indexPath.row]];
         cell.tintColor=[UIColor blackColor];
         
     }

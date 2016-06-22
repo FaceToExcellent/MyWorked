@@ -641,6 +641,9 @@
 		603E79CC1D19189A009E52AF /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				60405FB31D1A6D9D0084C020 /* AFNetworking */,
+				60405FDD1D1A6D9D0084C020 /* MJExtension */,
+				60405FF51D1A6D9D0084C020 /* MJRefresh */,
 				60405F511D1A26420084C020 /* SDAutoLayout */,
 				603E79D81D191E53009E52AF /* FXBlurView */,
 				603E79D21D191AD5009E52AF /* UIRootViewController.h */,
@@ -1021,9 +1024,6 @@
 		60405FB21D1A6D9D0084C020 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				60405FB31D1A6D9D0084C020 /* AFNetworking */,
-				60405FDD1D1A6D9D0084C020 /* MJExtension */,
-				60405FF51D1A6D9D0084C020 /* MJRefresh */,
 				604060251D1A6D9D0084C020 /* XYString */,
 			);
 			path = Lib;
@@ -1037,7 +1037,8 @@
 				60405FC91D1A6D9D0084C020 /* README.md */,
 				60405FCA1D1A6D9D0084C020 /* UIKit+AFNetworking */,
 			);
-			path = AFNetworking;
+			name = AFNetworking;
+			path = DemoVC10/Lib/AFNetworking;
 			sourceTree = "<group>";
 		};
 		60405FB41D1A6D9D0084C020 /* AFNetworking */ = {
@@ -1118,7 +1119,8 @@
 				60405FF31D1A6D9D0084C020 /* NSString+MJExtension.h */,
 				60405FF41D1A6D9D0084C020 /* NSString+MJExtension.m */,
 			);
-			path = MJExtension;
+			name = MJExtension;
+			path = DemoVC10/Lib/MJExtension;
 			sourceTree = "<group>";
 		};
 		60405FF51D1A6D9D0084C020 /* MJRefresh */ = {
@@ -1128,7 +1130,8 @@
 				60405FF71D1A6D9D0084C020 /* MJRefresh */,
 				604060241D1A6D9D0084C020 /* README.md */,
 			);
-			path = MJRefresh;
+			name = MJRefresh;
+			path = DemoVC10/Lib/MJRefresh;
 			sourceTree = "<group>";
 		};
 		60405FF71D1A6D9D0084C020 /* MJRefresh */ = {
