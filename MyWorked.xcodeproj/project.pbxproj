@@ -31,6 +31,12 @@
 		603EAB7C1D17FC8200E481FD /* TopsearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EAB731D17FC8200E481FD /* TopsearchViewController.m */; };
 		603EAB7D1D17FC8200E481FD /* ViewActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EAB751D17FC8200E481FD /* ViewActionViewController.m */; };
 		603EAB7F1D17FC9F00E481FD /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 603EAB7E1D17FC9F00E481FD /* area.plist */; };
+		60405F561D1A26420084C020 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 60405F531D1A26420084C020 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		60405F571D1A26420084C020 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 60405F551D1A26420084C020 /* UIView+SDAutoLayout.m */; };
+		60405F5A1D1A28070084C020 /* SDDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60405F591D1A28070084C020 /* SDDemoCell.m */; };
+		60405F5E1D1A2DAB0084C020 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60405F5D1D1A2DAB0084C020 /* ViewController.m */; };
+		60405F611D1A2DF30084C020 /* DemoVC0.m in Sources */ = {isa = PBXBuildFile; fileRef = 60405F601D1A2DF30084C020 /* DemoVC0.m */; };
+		60405F641D1A32140084C020 /* DemoVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 60405F631D1A32140084C020 /* DemoVC1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +78,18 @@
 		603EAB741D17FC8200E481FD /* ViewActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewActionViewController.h; sourceTree = "<group>"; };
 		603EAB751D17FC8200E481FD /* ViewActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewActionViewController.m; sourceTree = "<group>"; };
 		603EAB7E1D17FC9F00E481FD /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		60405F521D1A26420084C020 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		60405F531D1A26420084C020 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		60405F541D1A26420084C020 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		60405F551D1A26420084C020 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		60405F581D1A28070084C020 /* SDDemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDDemoCell.h; sourceTree = "<group>"; };
+		60405F591D1A28070084C020 /* SDDemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDDemoCell.m; sourceTree = "<group>"; };
+		60405F5C1D1A2DAB0084C020 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60405F5D1D1A2DAB0084C020 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60405F5F1D1A2DF30084C020 /* DemoVC0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVC0.h; sourceTree = "<group>"; };
+		60405F601D1A2DF30084C020 /* DemoVC0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVC0.m; sourceTree = "<group>"; };
+		60405F621D1A32140084C020 /* DemoVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVC1.h; sourceTree = "<group>"; };
+		60405F631D1A32140084C020 /* DemoVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVC1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,12 +111,13 @@
 		603E79CC1D19189A009E52AF /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				60405F511D1A26420084C020 /* SDAutoLayout */,
+				603E79D81D191E53009E52AF /* FXBlurView */,
 				603E79D21D191AD5009E52AF /* UIRootViewController.h */,
 				603E79D31D191AD5009E52AF /* UIRootViewController.m */,
 				603E79D51D191E03009E52AF /* FXBLurViewController.h */,
 				603E79D61D191E03009E52AF /* FXBLurViewController.m */,
-				603E79E61D192784009E52AF /* AutoLayoutViewController.h */,
-				603E79E71D192784009E52AF /* AutoLayoutViewController.m */,
+				60405F5B1D1A2D860084C020 /* SDDemo */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -130,7 +149,6 @@
 				603E79E01D191F2C009E52AF /* UIKit.framework */,
 				603E79DE1D191F23009E52AF /* Accelerate.framework */,
 				603E79DC1D191F19009E52AF /* QuartzCore.framework */,
-				603E79D81D191E53009E52AF /* FXBlurView */,
 			);
 			name = freamWork;
 			sourceTree = "<group>";
@@ -188,6 +206,34 @@
 				603EAB4B1D17FC2100E481FD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60405F511D1A26420084C020 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				60405F521D1A26420084C020 /* UITableView+SDAutoTableViewCellHeight.h */,
+				60405F531D1A26420084C020 /* UITableView+SDAutoTableViewCellHeight.m */,
+				60405F541D1A26420084C020 /* UIView+SDAutoLayout.h */,
+				60405F551D1A26420084C020 /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		60405F5B1D1A2D860084C020 /* SDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				60405F5C1D1A2DAB0084C020 /* ViewController.h */,
+				60405F5D1D1A2DAB0084C020 /* ViewController.m */,
+				60405F581D1A28070084C020 /* SDDemoCell.h */,
+				60405F591D1A28070084C020 /* SDDemoCell.m */,
+				603E79E61D192784009E52AF /* AutoLayoutViewController.h */,
+				603E79E71D192784009E52AF /* AutoLayoutViewController.m */,
+				60405F5F1D1A2DF30084C020 /* DemoVC0.h */,
+				60405F601D1A2DF30084C020 /* DemoVC0.m */,
+				60405F621D1A32140084C020 /* DemoVC1.h */,
+				60405F631D1A32140084C020 /* DemoVC1.m */,
+			);
+			name = SDDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +309,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60405F5E1D1A2DAB0084C020 /* ViewController.m in Sources */,
+				60405F561D1A26420084C020 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				603E79D41D191AD5009E52AF /* UIRootViewController.m in Sources */,
 				603E79CB1D18E7FE009E52AF /* MideasTableViewController.m in Sources */,
+				60405F5A1D1A28070084C020 /* SDDemoCell.m in Sources */,
 				603EAB7B1D17FC8200E481FD /* tieziceshiViewController.m in Sources */,
 				603E79E81D192784009E52AF /* AutoLayoutViewController.m in Sources */,
 				603E79D11D1919C4009E52AF /* ZXRootTableViewController.m in Sources */,
@@ -274,8 +323,11 @@
 				603EAB7C1D17FC8200E481FD /* TopsearchViewController.m in Sources */,
 				603EAB791D17FC8200E481FD /* OOOPPPViewController.m in Sources */,
 				603EAB7A1D17FC8200E481FD /* RootViewController.m in Sources */,
+				60405F611D1A2DF30084C020 /* DemoVC0.m in Sources */,
+				60405F641D1A32140084C020 /* DemoVC1.m in Sources */,
 				603EAB4C1D17FC2100E481FD /* main.m in Sources */,
 				603EAB7D1D17FC8200E481FD /* ViewActionViewController.m in Sources */,
+				60405F571D1A26420084C020 /* UIView+SDAutoLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
