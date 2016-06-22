@@ -66,10 +66,14 @@ NSString * const demo14Description = @"xib的cell高度自适应";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSString *demoClassString = [NSString stringWithFormat:@"DemoVC%ld", (long)indexPath.row];
-    UIViewController *vc = [NSClassFromString(demoClassString) new];
-    vc.title = demoClassString;
-    [self.navigationController pushViewController:vc animated:YES];
+    
+    if(indexPath.row!=3){
+        NSString *demoClassString = [NSString stringWithFormat:@"DemoVC%ld", (long)indexPath.row];
+        UIViewController *vc = [NSClassFromString(demoClassString) new];
+        vc.title = demoClassString;
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+  
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
