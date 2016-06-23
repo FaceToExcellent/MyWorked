@@ -21,7 +21,6 @@
 		603EAB4C1D17FC2100E481FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EAB4B1D17FC2100E481FD /* main.m */; };
 		603EAB4F1D17FC2100E481FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EAB4E1D17FC2100E481FD /* AppDelegate.m */; };
 		603EAB571D17FC2100E481FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603EAB561D17FC2100E481FD /* Assets.xcassets */; };
-		603EAB621D17FC4500E481FD /* 7.gif in Resources */ = {isa = PBXBuildFile; fileRef = 603EAB611D17FC4500E481FD /* 7.gif */; };
 		603EAB661D17FC5000E481FD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603EAB631D17FC5000E481FD /* Default-568h@2x.png */; };
 		603EAB671D17FC5000E481FD /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603EAB641D17FC5000E481FD /* Default-667h@2x.png */; };
 		603EAB681D17FC5000E481FD /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 603EAB651D17FC5000E481FD /* Default-736h@3x.png */; };
@@ -230,6 +229,17 @@
 		604061B61D1A6E560084C020 /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 604061871D1A6E560084C020 /* test2.jpg */; };
 		604061B71D1A6E560084C020 /* test3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 604061881D1A6E560084C020 /* test3.jpg */; };
 		604061B81D1A6E560084C020 /* test4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 604061891D1A6E560084C020 /* test4.jpg */; };
+		6043997C1D1B8FB50063B475 /* NSMutableAttributedString+TY.m in Sources */ = {isa = PBXBuildFile; fileRef = 604399691D1B8FB50063B475 /* NSMutableAttributedString+TY.m */; };
+		6043997D1D1B8FB50063B475 /* TYAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6043996B1D1B8FB50063B475 /* TYAttributedLabel.m */; };
+		6043997E1D1B8FB50063B475 /* TYDrawStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6043996D1D1B8FB50063B475 /* TYDrawStorage.m */; };
+		6043997F1D1B8FB50063B475 /* TYImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6043996F1D1B8FB50063B475 /* TYImageCache.m */; };
+		604399801D1B8FB50063B475 /* TYImageStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 604399711D1B8FB50063B475 /* TYImageStorage.m */; };
+		604399811D1B8FB50063B475 /* TYLinkTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 604399731D1B8FB50063B475 /* TYLinkTextStorage.m */; };
+		604399821D1B8FB50063B475 /* TYTextContainer+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 604399741D1B8FB50063B475 /* TYTextContainer+Extended.m */; };
+		604399831D1B8FB50063B475 /* TYTextContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 604399761D1B8FB50063B475 /* TYTextContainer.m */; };
+		604399841D1B8FB50063B475 /* TYTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 604399781D1B8FB50063B475 /* TYTextStorage.m */; };
+		604399851D1B8FB50063B475 /* TYViewStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6043997B1D1B8FB50063B475 /* TYViewStorage.m */; };
+		604399881D1B8FF80063B475 /* RichhhtextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604399871D1B8FF80063B475 /* RichhhtextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -256,7 +266,6 @@
 		603EAB4E1D17FC2100E481FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		603EAB561D17FC2100E481FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		603EAB5B1D17FC2100E481FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		603EAB611D17FC4500E481FD /* 7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 7.gif; sourceTree = "<group>"; };
 		603EAB631D17FC5000E481FD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		603EAB641D17FC5000E481FD /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		603EAB651D17FC5000E481FD /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
@@ -620,6 +629,29 @@
 		604061871D1A6E560084C020 /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
 		604061881D1A6E560084C020 /* test3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test3.jpg; sourceTree = "<group>"; };
 		604061891D1A6E560084C020 /* test4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test4.jpg; sourceTree = "<group>"; };
+		604399651D1B86D30063B475 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		604399681D1B8FB50063B475 /* NSMutableAttributedString+TY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+TY.h"; sourceTree = "<group>"; };
+		604399691D1B8FB50063B475 /* NSMutableAttributedString+TY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+TY.m"; sourceTree = "<group>"; };
+		6043996A1D1B8FB50063B475 /* TYAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAttributedLabel.h; sourceTree = "<group>"; };
+		6043996B1D1B8FB50063B475 /* TYAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAttributedLabel.m; sourceTree = "<group>"; };
+		6043996C1D1B8FB50063B475 /* TYDrawStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDrawStorage.h; sourceTree = "<group>"; };
+		6043996D1D1B8FB50063B475 /* TYDrawStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDrawStorage.m; sourceTree = "<group>"; };
+		6043996E1D1B8FB50063B475 /* TYImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYImageCache.h; sourceTree = "<group>"; };
+		6043996F1D1B8FB50063B475 /* TYImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYImageCache.m; sourceTree = "<group>"; };
+		604399701D1B8FB50063B475 /* TYImageStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYImageStorage.h; sourceTree = "<group>"; };
+		604399711D1B8FB50063B475 /* TYImageStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYImageStorage.m; sourceTree = "<group>"; };
+		604399721D1B8FB50063B475 /* TYLinkTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLinkTextStorage.h; sourceTree = "<group>"; };
+		604399731D1B8FB50063B475 /* TYLinkTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLinkTextStorage.m; sourceTree = "<group>"; };
+		604399741D1B8FB50063B475 /* TYTextContainer+Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TYTextContainer+Extended.m"; sourceTree = "<group>"; };
+		604399751D1B8FB50063B475 /* TYTextContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextContainer.h; sourceTree = "<group>"; };
+		604399761D1B8FB50063B475 /* TYTextContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextContainer.m; sourceTree = "<group>"; };
+		604399771D1B8FB50063B475 /* TYTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextStorage.h; sourceTree = "<group>"; };
+		604399781D1B8FB50063B475 /* TYTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextStorage.m; sourceTree = "<group>"; };
+		604399791D1B8FB50063B475 /* TYTextStorageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextStorageProtocol.h; sourceTree = "<group>"; };
+		6043997A1D1B8FB50063B475 /* TYViewStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewStorage.h; sourceTree = "<group>"; };
+		6043997B1D1B8FB50063B475 /* TYViewStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewStorage.m; sourceTree = "<group>"; };
+		604399861D1B8FF80063B475 /* RichhhtextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichhhtextViewController.h; sourceTree = "<group>"; };
+		604399871D1B8FF80063B475 /* RichhhtextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RichhhtextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -641,6 +673,7 @@
 		603E79CC1D19189A009E52AF /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				604399671D1B8FB50063B475 /* TYAttributedLabel */,
 				60405FB31D1A6D9D0084C020 /* AFNetworking */,
 				60405FDD1D1A6D9D0084C020 /* MJExtension */,
 				60405FF51D1A6D9D0084C020 /* MJRefresh */,
@@ -650,6 +683,8 @@
 				603E79D31D191AD5009E52AF /* UIRootViewController.m */,
 				603E79D51D191E03009E52AF /* FXBLurViewController.h */,
 				603E79D61D191E03009E52AF /* FXBLurViewController.m */,
+				604399861D1B8FF80063B475 /* RichhhtextViewController.h */,
+				604399871D1B8FF80063B475 /* RichhhtextViewController.m */,
 				60405F5B1D1A2D860084C020 /* SDDemo */,
 			);
 			name = UI;
@@ -677,6 +712,7 @@
 		603E79CE1D19194F009E52AF /* freamWork */ = {
 			isa = PBXGroup;
 			children = (
+				604399651D1B86D30063B475 /* CoreText.framework */,
 				603E79E41D191F40009E52AF /* CoreGraphics.framework */,
 				603E79E21D191F33009E52AF /* Foundation.framework */,
 				603E79E01D191F2C009E52AF /* UIKit.framework */,
@@ -728,15 +764,11 @@
 		603EAB4A1D17FC2100E481FD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				604061581D1A6E560084C020 /* Images */,
-				603EAB611D17FC4500E481FD /* 7.gif */,
 				603E79CE1D19194F009E52AF /* freamWork */,
-				603EAB7E1D17FC9F00E481FD /* area.plist */,
+				604061B91D1A736E0084C020 /* Default */,
+				604061581D1A6E560084C020 /* Images */,
+				604061BA1D1A73A00084C020 /* plist */,
 				603EAB561D17FC2100E481FD /* Assets.xcassets */,
-				603EAB5B1D17FC2100E481FD /* Info.plist */,
-				603EAB631D17FC5000E481FD /* Default-568h@2x.png */,
-				603EAB641D17FC5000E481FD /* Default-667h@2x.png */,
-				603EAB651D17FC5000E481FD /* Default-736h@3x.png */,
 				603EAB4B1D17FC2100E481FD /* main.m */,
 			);
 			name = "Supporting Files";
@@ -1634,6 +1666,52 @@
 			path = test;
 			sourceTree = "<group>";
 		};
+		604061B91D1A736E0084C020 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				603EAB651D17FC5000E481FD /* Default-736h@3x.png */,
+				603EAB641D17FC5000E481FD /* Default-667h@2x.png */,
+				603EAB631D17FC5000E481FD /* Default-568h@2x.png */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		604061BA1D1A73A00084C020 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				603EAB5B1D17FC2100E481FD /* Info.plist */,
+				603EAB7E1D17FC9F00E481FD /* area.plist */,
+			);
+			name = plist;
+			sourceTree = "<group>";
+		};
+		604399671D1B8FB50063B475 /* TYAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				604399681D1B8FB50063B475 /* NSMutableAttributedString+TY.h */,
+				604399691D1B8FB50063B475 /* NSMutableAttributedString+TY.m */,
+				6043996A1D1B8FB50063B475 /* TYAttributedLabel.h */,
+				6043996B1D1B8FB50063B475 /* TYAttributedLabel.m */,
+				6043996C1D1B8FB50063B475 /* TYDrawStorage.h */,
+				6043996D1D1B8FB50063B475 /* TYDrawStorage.m */,
+				6043996E1D1B8FB50063B475 /* TYImageCache.h */,
+				6043996F1D1B8FB50063B475 /* TYImageCache.m */,
+				604399701D1B8FB50063B475 /* TYImageStorage.h */,
+				604399711D1B8FB50063B475 /* TYImageStorage.m */,
+				604399721D1B8FB50063B475 /* TYLinkTextStorage.h */,
+				604399731D1B8FB50063B475 /* TYLinkTextStorage.m */,
+				604399741D1B8FB50063B475 /* TYTextContainer+Extended.m */,
+				604399751D1B8FB50063B475 /* TYTextContainer.h */,
+				604399761D1B8FB50063B475 /* TYTextContainer.m */,
+				604399771D1B8FB50063B475 /* TYTextStorage.h */,
+				604399781D1B8FB50063B475 /* TYTextStorage.m */,
+				604399791D1B8FB50063B475 /* TYTextStorageProtocol.h */,
+				6043997A1D1B8FB50063B475 /* TYViewStorage.h */,
+				6043997B1D1B8FB50063B475 /* TYViewStorage.m */,
+			);
+			path = TYAttributedLabel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1701,7 +1779,6 @@
 				6040618E1D1A6E560084C020 /* 12.jpg in Resources */,
 				604061AB1D1A6E560084C020 /* pic1.jpg in Resources */,
 				604061961D1A6E560084C020 /* 2.jpg in Resources */,
-				603EAB621D17FC4500E481FD /* 7.gif in Resources */,
 				604061A61D1A6E560084C020 /* icon2.jpg in Resources */,
 				604061901D1A6E560084C020 /* 14.jpg in Resources */,
 				604061A81D1A6E560084C020 /* icon4.jpg in Resources */,
@@ -1766,6 +1843,7 @@
 				604060791D1A6D9D0084C020 /* AFURLSessionManager.m in Sources */,
 				60405F5E1D1A2DAB0084C020 /* ViewController.m in Sources */,
 				6040605E1D1A6D9D0084C020 /* DemoVC7.m in Sources */,
+				6043997E1D1B8FB50063B475 /* TYDrawStorage.m in Sources */,
 				6040607E1D1A6D9D0084C020 /* UIAlertView+AFNetworking.m in Sources */,
 				604060821D1A6D9D0084C020 /* UIRefreshControl+AFNetworking.m in Sources */,
 				604060811D1A6D9D0084C020 /* UIProgressView+AFNetworking.m in Sources */,
@@ -1777,8 +1855,11 @@
 				604060B61D1A6D9D0084C020 /* DemoVC14Cell.m in Sources */,
 				6040607C1D1A6D9D0084C020 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				604060B81D1A6D9D0084C020 /* PhotosContainerView.m in Sources */,
+				6043997C1D1B8FB50063B475 /* NSMutableAttributedString+TY.m in Sources */,
+				604399881D1B8FF80063B475 /* RichhhtextViewController.m in Sources */,
 				604060B01D1A6D9D0084C020 /* SDChatModel.m in Sources */,
 				6040609F1D1A6D9D0084C020 /* MJRefreshConst.m in Sources */,
+				604399841D1B8FB50063B475 /* TYTextStorage.m in Sources */,
 				604061411D1A6DCB0084C020 /* SDPhotoBrowser.m in Sources */,
 				604060851D1A6D9D0084C020 /* MJExtensionConst.m in Sources */,
 				603E79D41D191AD5009E52AF /* UIRootViewController.m in Sources */,
@@ -1787,6 +1868,7 @@
 				604060AF1D1A6D9D0084C020 /* DemoVC11.m in Sources */,
 				604060761D1A6D9D0084C020 /* AFURLConnectionOperation.m in Sources */,
 				6040614C1D1A6DCB0084C020 /* SDWebImageDecoder.m in Sources */,
+				604399801D1B8FB50063B475 /* TYImageStorage.m in Sources */,
 				604060601D1A6D9D0084C020 /* DemoVC7Cell2.m in Sources */,
 				604060891D1A6D9D0084C020 /* MJPropertyType.m in Sources */,
 				6040613B1D1A6DCB0084C020 /* TADotView.m in Sources */,
@@ -1806,6 +1888,7 @@
 				604061571D1A6DCB0084C020 /* UIView+WebCacheOperation.m in Sources */,
 				6040614E1D1A6DCB0084C020 /* SDWebImageDownloaderOperation.m in Sources */,
 				604060621D1A6D9D0084C020 /* DemoVC8.m in Sources */,
+				6043997F1D1B8FB50063B475 /* TYImageCache.m in Sources */,
 				604060AE1D1A6D9D0084C020 /* SDAnalogDataGenerator.m in Sources */,
 				604060611D1A6D9D0084C020 /* DemoVC7Model.m in Sources */,
 				604060951D1A6D9D0084C020 /* MJRefreshAutoGifFooter.m in Sources */,
@@ -1823,6 +1906,7 @@
 				604060AD1D1A6D9D0084C020 /* ThreeThirdCell.m in Sources */,
 				604060671D1A6D9D0084C020 /* SDTimeLineCellModel.m in Sources */,
 				6040609D1D1A6D9D0084C020 /* MJRefreshStateHeader.m in Sources */,
+				6043997D1D1B8FB50063B475 /* TYAttributedLabel.m in Sources */,
 				604060991D1A6D9D0084C020 /* MJRefreshBackNormalFooter.m in Sources */,
 				604060781D1A6D9D0084C020 /* AFURLResponseSerialization.m in Sources */,
 				60405F6A1D1A68D40084C020 /* DemoVC4.m in Sources */,
@@ -1860,6 +1944,7 @@
 				6040606F1D1A6D9D0084C020 /* SDTimeLineRefreshHeader.m in Sources */,
 				604060711D1A6D9D0084C020 /* AFHTTPRequestOperation.m in Sources */,
 				604060871D1A6D9D0084C020 /* MJProperty.m in Sources */,
+				604399851D1B8FB50063B475 /* TYViewStorage.m in Sources */,
 				604061481D1A6DCB0084C020 /* MKAnnotationView+WebCache.m in Sources */,
 				604060731D1A6D9D0084C020 /* AFHTTPSessionManager.m in Sources */,
 				604060801D1A6D9D0084C020 /* UIImageView+AFNetworking.m in Sources */,
@@ -1869,6 +1954,7 @@
 				604061311D1A6DCB0084C020 /* NSAttributedString+MLExpression.m in Sources */,
 				6040607F1D1A6D9D0084C020 /* UIButton+AFNetworking.m in Sources */,
 				604060631D1A6D9D0084C020 /* DemoVC9.m in Sources */,
+				604399811D1B8FB50063B475 /* TYLinkTextStorage.m in Sources */,
 				6040606D1D1A6D9D0084C020 /* SDWeiXinPhotoContainerView.m in Sources */,
 				604060A61D1A6D9D0084C020 /* Editor.m in Sources */,
 				604061561D1A6DCB0084C020 /* UIImageView+WebCache.m in Sources */,
@@ -1878,6 +1964,7 @@
 				604061341D1A6DCB0084C020 /* MLLabel.m in Sources */,
 				603EAB7A1D17FC8200E481FD /* RootViewController.m in Sources */,
 				604061391D1A6DCB0084C020 /* TAAbstractDotView.m in Sources */,
+				604399831D1B8FB50063B475 /* TYTextContainer.m in Sources */,
 				604060961D1A6D9D0084C020 /* MJRefreshAutoNormalFooter.m in Sources */,
 				6040613C1D1A6DCB0084C020 /* TAPageControl.m in Sources */,
 				6040614F1D1A6DCB0084C020 /* SDWebImageManager.m in Sources */,
@@ -1894,6 +1981,7 @@
 				604060A91D1A6D9D0084C020 /* ThreeBaseCell.m in Sources */,
 				604061541D1A6DCB0084C020 /* UIImage+WebP.m in Sources */,
 				6040614B1D1A6DCB0084C020 /* SDWebImageCompat.m in Sources */,
+				604399821D1B8FB50063B475 /* TYTextContainer+Extended.m in Sources */,
 				6040607B1D1A6D9D0084C020 /* README.md in Sources */,
 				604061321D1A6DCB0084C020 /* NSString+MLExpression.m in Sources */,
 				60405F611D1A2DF30084C020 /* DemoVC0.m in Sources */,

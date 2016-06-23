@@ -10,6 +10,7 @@
 
 #import "FXBLurViewController.h"
 #import "AutoLayoutViewController.h"
+#import "RichhhtextViewController.h"
 @interface UIRootViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView * tableview;
 @property(nonatomic,strong)NSArray *listArray;
@@ -35,7 +36,7 @@
 -(void)makeUI
 {
     
-    _listArray = @[@"模糊",@"AutoLayout"];
+    _listArray = @[@"模糊",@"AutoLayout",@"富文本"];
     
     _tableview=[[UITableView alloc]init];
     _tableview.frame=CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
@@ -92,7 +93,11 @@
         [self.navigationController pushViewController:vc animated:YES];
         
     }
-    
+    if (indexPath.row==2) {
+        RichhhtextViewController *vc =[[RichhhtextViewController alloc]init];
+         [self.navigationController pushViewController:vc animated:YES];
+        
+    }
 }
 
 //补全 下划线
