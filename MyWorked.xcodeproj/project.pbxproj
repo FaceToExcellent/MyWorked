@@ -652,6 +652,7 @@
 		6043997B1D1B8FB50063B475 /* TYViewStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewStorage.m; sourceTree = "<group>"; };
 		604399861D1B8FF80063B475 /* RichhhtextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichhhtextViewController.h; sourceTree = "<group>"; };
 		604399871D1B8FF80063B475 /* RichhhtextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RichhhtextViewController.m; sourceTree = "<group>"; };
+		60E6E8101D1BB90B002BB11D /* myworked_PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myworked_PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -770,6 +771,7 @@
 				604061BA1D1A73A00084C020 /* plist */,
 				603EAB561D17FC2100E481FD /* Assets.xcassets */,
 				603EAB4B1D17FC2100E481FD /* main.m */,
+				60E6E8101D1BB90B002BB11D /* myworked_PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -2101,6 +2103,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyWorked/myworked_PrefixHeader.pch";
 				INFOPLIST_FILE = MyWorked/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calayer.MyWorked;
@@ -2112,6 +2116,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyWorked/myworked_PrefixHeader.pch";
 				INFOPLIST_FILE = MyWorked/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calayer.MyWorked;
