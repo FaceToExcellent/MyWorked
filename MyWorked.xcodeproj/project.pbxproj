@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		603C787C1D1CE02E00F85B87 /* TextContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603C787B1D1CE02E00F85B87 /* TextContainerViewController.m */; };
+		603C787F1D1CE28500F85B87 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 603C787E1D1CE28500F85B87 /* RegexKitLite.m */; };
+		603C78821D1CE2B500F85B87 /* TExamTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 603C78811D1CE2B500F85B87 /* TExamTextField.m */; };
+		603C788C1D1CE32100F85B87 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 603C78851D1CE32100F85B87 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		603C788D1D1CE32100F85B87 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 603C78871D1CE32100F85B87 /* TPKeyboardAvoidingScrollView.m */; };
+		603C788E1D1CE32100F85B87 /* AttributedLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 603C78891D1CE32100F85B87 /* AttributedLabelCell.m */; };
+		603C788F1D1CE32100F85B87 /* AutoLayoutAttributedLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 603C788B1D1CE32100F85B87 /* AutoLayoutAttributedLabelCell.m */; };
 		603E79CB1D18E7FE009E52AF /* MideasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603E79CA1D18E7FE009E52AF /* MideasTableViewController.m */; };
 		603E79D11D1919C4009E52AF /* ZXRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603E79D01D1919C4009E52AF /* ZXRootTableViewController.m */; };
 		603E79D41D191AD5009E52AF /* UIRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603E79D31D191AD5009E52AF /* UIRootViewController.m */; };
@@ -243,6 +250,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		603C787A1D1CE02E00F85B87 /* TextContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextContainerViewController.h; sourceTree = "<group>"; };
+		603C787B1D1CE02E00F85B87 /* TextContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextContainerViewController.m; sourceTree = "<group>"; };
+		603C787D1D1CE28500F85B87 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		603C787E1D1CE28500F85B87 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		603C78801D1CE2B500F85B87 /* TExamTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TExamTextField.h; sourceTree = "<group>"; };
+		603C78811D1CE2B500F85B87 /* TExamTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TExamTextField.m; sourceTree = "<group>"; };
+		603C78841D1CE32100F85B87 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		603C78851D1CE32100F85B87 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		603C78861D1CE32100F85B87 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		603C78871D1CE32100F85B87 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		603C78881D1CE32100F85B87 /* AttributedLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributedLabelCell.h; sourceTree = "<group>"; };
+		603C78891D1CE32100F85B87 /* AttributedLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributedLabelCell.m; sourceTree = "<group>"; };
+		603C788A1D1CE32100F85B87 /* AutoLayoutAttributedLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutAttributedLabelCell.h; sourceTree = "<group>"; };
+		603C788B1D1CE32100F85B87 /* AutoLayoutAttributedLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutAttributedLabelCell.m; sourceTree = "<group>"; };
 		603E79C91D18E7FE009E52AF /* MideasTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MideasTableViewController.h; sourceTree = "<group>"; };
 		603E79CA1D18E7FE009E52AF /* MideasTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MideasTableViewController.m; sourceTree = "<group>"; };
 		603E79CF1D1919C4009E52AF /* ZXRootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXRootTableViewController.h; sourceTree = "<group>"; };
@@ -671,6 +692,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		603C78831D1CE2B900F85B87 /* TYViews */ = {
+			isa = PBXGroup;
+			children = (
+				603C78841D1CE32100F85B87 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				603C78851D1CE32100F85B87 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				603C78861D1CE32100F85B87 /* TPKeyboardAvoidingScrollView.h */,
+				603C78871D1CE32100F85B87 /* TPKeyboardAvoidingScrollView.m */,
+				603C78881D1CE32100F85B87 /* AttributedLabelCell.h */,
+				603C78891D1CE32100F85B87 /* AttributedLabelCell.m */,
+				603C788A1D1CE32100F85B87 /* AutoLayoutAttributedLabelCell.h */,
+				603C788B1D1CE32100F85B87 /* AutoLayoutAttributedLabelCell.m */,
+				603C78801D1CE2B500F85B87 /* TExamTextField.h */,
+				603C78811D1CE2B500F85B87 /* TExamTextField.m */,
+				603C787D1D1CE28500F85B87 /* RegexKitLite.h */,
+				603C787E1D1CE28500F85B87 /* RegexKitLite.m */,
+			);
+			name = TYViews;
+			sourceTree = "<group>";
+		};
 		603E79CC1D19189A009E52AF /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -686,6 +726,9 @@
 				603E79D61D191E03009E52AF /* FXBLurViewController.m */,
 				604399861D1B8FF80063B475 /* RichhhtextViewController.h */,
 				604399871D1B8FF80063B475 /* RichhhtextViewController.m */,
+				603C78831D1CE2B900F85B87 /* TYViews */,
+				603C787A1D1CE02E00F85B87 /* TextContainerViewController.h */,
+				603C787B1D1CE02E00F85B87 /* TextContainerViewController.m */,
 				60405F5B1D1A2D860084C020 /* SDDemo */,
 			);
 			name = UI;
@@ -1865,6 +1908,7 @@
 				604061411D1A6DCB0084C020 /* SDPhotoBrowser.m in Sources */,
 				604060851D1A6D9D0084C020 /* MJExtensionConst.m in Sources */,
 				603E79D41D191AD5009E52AF /* UIRootViewController.m in Sources */,
+				603C787C1D1CE02E00F85B87 /* TextContainerViewController.m in Sources */,
 				6040607D1D1A6D9D0084C020 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				604061381D1A6DCB0084C020 /* TTTAttributedLabel.m in Sources */,
 				604060AF1D1A6D9D0084C020 /* DemoVC11.m in Sources */,
@@ -1910,6 +1954,7 @@
 				6040609D1D1A6D9D0084C020 /* MJRefreshStateHeader.m in Sources */,
 				6043997D1D1B8FB50063B475 /* TYAttributedLabel.m in Sources */,
 				604060991D1A6D9D0084C020 /* MJRefreshBackNormalFooter.m in Sources */,
+				603C788E1D1CE32100F85B87 /* AttributedLabelCell.m in Sources */,
 				604060781D1A6D9D0084C020 /* AFURLResponseSerialization.m in Sources */,
 				60405F6A1D1A68D40084C020 /* DemoVC4.m in Sources */,
 				604061421D1A6DCB0084C020 /* SDWaitingView.m in Sources */,
@@ -1937,12 +1982,14 @@
 				604061301D1A6DCB0084C020 /* MLTextAttachment.m in Sources */,
 				604061401D1A6DCB0084C020 /* SDBrowserImageView.m in Sources */,
 				604060681D1A6D9D0084C020 /* SDTimeLineTableViewController.m in Sources */,
+				603C787F1D1CE28500F85B87 /* RegexKitLite.m in Sources */,
 				604060B41D1A6D9D0084C020 /* DemoVC13.m in Sources */,
 				603E79DB1D191E53009E52AF /* FXBlurView.m in Sources */,
 				603EAB4F1D17FC2100E481FD /* AppDelegate.m in Sources */,
 				604060A31D1A6D9D0084C020 /* README.md in Sources */,
 				604060A51D1A6D9D0084C020 /* Ads.m in Sources */,
 				603EAB7C1D17FC8200E481FD /* TopsearchViewController.m in Sources */,
+				603C788C1D1CE32100F85B87 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				6040606F1D1A6D9D0084C020 /* SDTimeLineRefreshHeader.m in Sources */,
 				604060711D1A6D9D0084C020 /* AFHTTPRequestOperation.m in Sources */,
 				604060871D1A6D9D0084C020 /* MJProperty.m in Sources */,
@@ -1959,6 +2006,7 @@
 				604399811D1B8FB50063B475 /* TYLinkTextStorage.m in Sources */,
 				6040606D1D1A6D9D0084C020 /* SDWeiXinPhotoContainerView.m in Sources */,
 				604060A61D1A6D9D0084C020 /* Editor.m in Sources */,
+				603C788F1D1CE32100F85B87 /* AutoLayoutAttributedLabelCell.m in Sources */,
 				604061561D1A6DCB0084C020 /* UIImageView+WebCache.m in Sources */,
 				6040612E1D1A6DCB0084C020 /* NSString+MLLabel.m in Sources */,
 				604061351D1A6DCB0084C020 /* MLLinkLabel.m in Sources */,
@@ -1975,6 +2023,7 @@
 				6040608D1D1A6D9D0084C020 /* NSObject+MJProperty.m in Sources */,
 				604060AB1D1A6D9D0084C020 /* ThreeFourthCell.m in Sources */,
 				6040606C1D1A6D9D0084C020 /* SDTimeLineCellOperationMenu.m in Sources */,
+				603C78821D1CE2B500F85B87 /* TExamTextField.m in Sources */,
 				6040606E1D1A6D9D0084C020 /* SDTimeLineRefreshFooter.m in Sources */,
 				604060B31D1A6D9D0084C020 /* DemoVC12.m in Sources */,
 				6040613D1D1A6DCB0084C020 /* SDCollectionViewCell.m in Sources */,
@@ -1983,6 +2032,7 @@
 				604060A91D1A6D9D0084C020 /* ThreeBaseCell.m in Sources */,
 				604061541D1A6DCB0084C020 /* UIImage+WebP.m in Sources */,
 				6040614B1D1A6DCB0084C020 /* SDWebImageCompat.m in Sources */,
+				603C788D1D1CE32100F85B87 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				604399821D1B8FB50063B475 /* TYTextContainer+Extended.m in Sources */,
 				6040607B1D1A6D9D0084C020 /* README.md in Sources */,
 				604061321D1A6DCB0084C020 /* NSString+MLExpression.m in Sources */,

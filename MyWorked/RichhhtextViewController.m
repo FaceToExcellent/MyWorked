@@ -8,7 +8,8 @@
 
 #import "RichhhtextViewController.h"
 #import "TYAttributedLabel.h"
-@interface RichhhtextViewController ()
+#import "TextContainerViewController.h"
+@interface RichhhtextViewController ()<TYAttributedLabelDelegate>
 
 @end
 
@@ -48,8 +49,10 @@
     [self addTextAttributedLabel];
     //3. 链接文本
     [self addLinkLabel];
-    
-    
+    //4.添加图片
+    [self addImageLabel];
+    //5.添加文本容器
+    [self addtextContainer];
 }
 
 -(void)addsimpleLabel
@@ -116,7 +119,7 @@
 
 -(void)addLinkLabel
 {
-    TYAttributedLabel *label1 = [[TYAttributedLabel alloc]initWithFrame:CGRectMake(0, 300, CGRectGetWidth(self.view.frame), 0)];
+    TYAttributedLabel *label1 = [[TYAttributedLabel alloc]initWithFrame:CGRectMake(0, 320, CGRectGetWidth(self.view.frame), 0)];
     label1.delegate = self;
     label1.highlightedLinkColor = [UIColor orangeColor];
    
@@ -147,11 +150,43 @@
     [label1 sizeToFit];
      [myScrollView addSubview:label1];
 }
+
+-(void)addImageLabel
+{
+    //不用那么复杂直接sd_webimage就行了
+//然后当做图片进行自适应
+    //目前这么觉得
+}
+
+-(void)addtextContainer{
+    
+    UIButton * button = [[UIButton alloc]init];
+    button.frame=CGRectMake(10, 600, 300, 100);
+    [button setTitle:@"文本容器" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(ButtonClicK) forControlEvents:UIControlEventTouchUpInside];
+    [myScrollView addSubview:button];
+    button.backgroundColor = [UIColor redColor];
+    
+    
+}
+-(void)ButtonClicK{
+    TextContainerViewController * vc =[[TextContainerViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:NO];
+    
+}
+
+
+
+
+
+
+
+
 #pragma mark - TYAttributedLabelDelegate
 
 - (void)attributedLabel:(TYAttributedLabel *)attributedLabel textStorageClicked:(id<TYTextStorageProtocol>)TextRun atPoint:(CGPoint)point
 {
-    NSLog(@"textStorageClickedAtPoint");
+   // NSLog(@"textStorageClickedAtPoint");
     if ([TextRun isKindOfClass:[TYLinkTextStorage class]]) {
         
         NSString *linkStr = ((TYLinkTextStorage*)TextRun).linkData;
@@ -159,15 +194,15 @@
         if ([linkStr hasPrefix:@"http:"]) {
             [ [ UIApplication sharedApplication] openURL:[ NSURL URLWithString:linkStr]];
         }else {
-            UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"点击提示" message:linkStr delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil];
-            [alertView show];
+//            UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"点击提示" message:linkStr delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil];
+//            [alertView show];
         }
     }
 }
 
 - (void)attributedLabel:(TYAttributedLabel *)attributedLabel textStorageLongPressed:(id<TYTextStorageProtocol>)textStorage onState:(UIGestureRecognizerState)state atPoint:(CGPoint)point
 {
-    NSLog(@"textStorageLongPressed");
+    //NSLog(@"textStorageLongPressed");
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
