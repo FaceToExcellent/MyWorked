@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		60326F791D20C93F0069053C /* TYTextStorageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 60326F781D20C93F0069053C /* TYTextStorageParser.m */; };
 		60326F7B1D20C9B80069053C /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = 60326F7A1D20C9B80069053C /* content.json */; };
+		60326F821D20CC6A0069053C /* mylabeldiy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60326F811D20CC6A0069053C /* mylabeldiy.m */; };
+		60326F851D20D0400069053C /* mylabeltestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60326F841D20D0400069053C /* mylabeltestViewController.m */; };
 		603C787C1D1CE02E00F85B87 /* TextContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603C787B1D1CE02E00F85B87 /* TextContainerViewController.m */; };
 		603E79CB1D18E7FE009E52AF /* MideasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603E79CA1D18E7FE009E52AF /* MideasTableViewController.m */; };
 		603E79D11D1919C4009E52AF /* ZXRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603E79D01D1919C4009E52AF /* ZXRootTableViewController.m */; };
@@ -250,6 +252,10 @@
 		60326F771D20C93F0069053C /* TYTextStorageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYTextStorageParser.h; path = "../../../../Downloads/TYAttributedLabel-master/TYAttributedLabelDemo/TYTextStorageParser.h"; sourceTree = "<group>"; };
 		60326F781D20C93F0069053C /* TYTextStorageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYTextStorageParser.m; path = "../../../../Downloads/TYAttributedLabel-master/TYAttributedLabelDemo/TYTextStorageParser.m"; sourceTree = "<group>"; };
 		60326F7A1D20C9B80069053C /* content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
+		60326F801D20CC6A0069053C /* mylabeldiy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mylabeldiy.h; sourceTree = "<group>"; };
+		60326F811D20CC6A0069053C /* mylabeldiy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mylabeldiy.m; sourceTree = "<group>"; };
+		60326F831D20D0400069053C /* mylabeltestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mylabeltestViewController.h; sourceTree = "<group>"; };
+		60326F841D20D0400069053C /* mylabeltestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mylabeltestViewController.m; sourceTree = "<group>"; };
 		603C787A1D1CE02E00F85B87 /* TextContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextContainerViewController.h; sourceTree = "<group>"; };
 		603C787B1D1CE02E00F85B87 /* TextContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextContainerViewController.m; sourceTree = "<group>"; };
 		603E79C91D18E7FE009E52AF /* MideasTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MideasTableViewController.h; sourceTree = "<group>"; };
@@ -680,26 +686,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		603E79CC1D19189A009E52AF /* UI */ = {
+		60326F7C1D20CB380069053C /* 富文本 */ = {
 			isa = PBXGroup;
 			children = (
 				604399671D1B8FB50063B475 /* TYAttributedLabel */,
-				60405FB31D1A6D9D0084C020 /* AFNetworking */,
-				60405FDD1D1A6D9D0084C020 /* MJExtension */,
-				60405FF51D1A6D9D0084C020 /* MJRefresh */,
-				60405F511D1A26420084C020 /* SDAutoLayout */,
-				603E79D81D191E53009E52AF /* FXBlurView */,
-				60405F5B1D1A2D860084C020 /* SDDemo */,
-				603E79D21D191AD5009E52AF /* UIRootViewController.h */,
-				603E79D31D191AD5009E52AF /* UIRootViewController.m */,
-				603E79D51D191E03009E52AF /* FXBLurViewController.h */,
-				603E79D61D191E03009E52AF /* FXBLurViewController.m */,
-				604399861D1B8FF80063B475 /* RichhhtextViewController.h */,
-				604399871D1B8FF80063B475 /* RichhhtextViewController.m */,
-				603C787A1D1CE02E00F85B87 /* TextContainerViewController.h */,
-				603C787B1D1CE02E00F85B87 /* TextContainerViewController.m */,
 				60326F771D20C93F0069053C /* TYTextStorageParser.h */,
 				60326F781D20C93F0069053C /* TYTextStorageParser.m */,
+				603C787B1D1CE02E00F85B87 /* TextContainerViewController.m */,
+				603C787A1D1CE02E00F85B87 /* TextContainerViewController.h */,
+				604399861D1B8FF80063B475 /* RichhhtextViewController.h */,
+				604399871D1B8FF80063B475 /* RichhhtextViewController.m */,
+				60326F831D20D0400069053C /* mylabeltestViewController.h */,
+				60326F841D20D0400069053C /* mylabeltestViewController.m */,
+				60326F801D20CC6A0069053C /* mylabeldiy.h */,
+				60326F811D20CC6A0069053C /* mylabeldiy.m */,
+			);
+			name = "富文本";
+			sourceTree = "<group>";
+		};
+		60326F7D1D20CB660069053C /* 模糊 */ = {
+			isa = PBXGroup;
+			children = (
+				603E79D81D191E53009E52AF /* FXBlurView */,
+				603E79D51D191E03009E52AF /* FXBLurViewController.h */,
+				603E79D61D191E03009E52AF /* FXBLurViewController.m */,
+			);
+			name = "模糊";
+			sourceTree = "<group>";
+		};
+		60326F7E1D20CB7C0069053C /* Autolayout */ = {
+			isa = PBXGroup;
+			children = (
+				60405F511D1A26420084C020 /* SDAutoLayout */,
+				60405F5B1D1A2D860084C020 /* SDDemo */,
+			);
+			name = Autolayout;
+			sourceTree = "<group>";
+		};
+		60326F7F1D20CBB00069053C /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				60405FF51D1A6D9D0084C020 /* MJRefresh */,
+				60405FDD1D1A6D9D0084C020 /* MJExtension */,
+				60405FB31D1A6D9D0084C020 /* AFNetworking */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		603E79CC1D19189A009E52AF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				603E79D21D191AD5009E52AF /* UIRootViewController.h */,
+				603E79D31D191AD5009E52AF /* UIRootViewController.m */,
+				60326F7E1D20CB7C0069053C /* Autolayout */,
+				60326F7D1D20CB660069053C /* 模糊 */,
+				60326F7C1D20CB380069053C /* 富文本 */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -765,6 +806,7 @@
 		603EAB491D17FC2100E481FD /* MyWorked */ = {
 			isa = PBXGroup;
 			children = (
+				60326F7F1D20CBB00069053C /* SDK */,
 				603EAB4D1D17FC2100E481FD /* AppDelegate.h */,
 				603EAB4E1D17FC2100E481FD /* AppDelegate.m */,
 				603EAB6E1D17FC8200E481FD /* RootViewController.h */,
@@ -1929,6 +1971,7 @@
 				6043997D1D1B8FB50063B475 /* TYAttributedLabel.m in Sources */,
 				604060991D1A6D9D0084C020 /* MJRefreshBackNormalFooter.m in Sources */,
 				604060781D1A6D9D0084C020 /* AFURLResponseSerialization.m in Sources */,
+				60326F821D20CC6A0069053C /* mylabeldiy.m in Sources */,
 				60405F6A1D1A68D40084C020 /* DemoVC4.m in Sources */,
 				604061421D1A6DCB0084C020 /* SDWaitingView.m in Sources */,
 				603EAB7B1D17FC8200E481FD /* tieziceshiViewController.m in Sources */,
@@ -1967,6 +2010,7 @@
 				604399851D1B8FB50063B475 /* TYViewStorage.m in Sources */,
 				604061481D1A6DCB0084C020 /* MKAnnotationView+WebCache.m in Sources */,
 				604060731D1A6D9D0084C020 /* AFHTTPSessionManager.m in Sources */,
+				60326F851D20D0400069053C /* mylabeltestViewController.m in Sources */,
 				604060801D1A6D9D0084C020 /* UIImageView+AFNetworking.m in Sources */,
 				604060901D1A6D9D0084C020 /* MJRefreshAutoFooter.m in Sources */,
 				603EAB791D17FC8200E481FD /* OOOPPPViewController.m in Sources */,

@@ -9,6 +9,7 @@
 #import "RichhhtextViewController.h"
 #import "TYAttributedLabel.h"
 #import "TextContainerViewController.h"
+#import "mylabeltestViewController.h"
 @interface RichhhtextViewController ()<TYAttributedLabelDelegate>
 
 @end
@@ -167,14 +168,23 @@
     [myScrollView addSubview:button];
     button.backgroundColor = [UIColor redColor];
     
-    
+    UIButton * button1 = [[UIButton alloc]init];
+    button1.frame=CGRectMake(10, 720, 300, 100);
+    [button1 setTitle:@"自己封装label 测试" forState:UIControlStateNormal];
+    [button1 addTarget:self action:@selector(buttonClick2) forControlEvents:UIControlEventTouchUpInside];
+    [myScrollView addSubview:button1];
+    button1.backgroundColor = [UIColor purpleColor];
 }
 -(void)ButtonClicK{
     TextContainerViewController * vc =[[TextContainerViewController alloc]init];
     [self.navigationController pushViewController:vc animated:NO];
     
 }
-
+-(void)buttonClick2{
+    mylabeltestViewController *vc =[[mylabeltestViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:NO];
+    
+}
 
 
 

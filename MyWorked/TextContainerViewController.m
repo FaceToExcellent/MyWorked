@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-  self.title=@"没写containner";
+  self.title=@"没写containner,json格式解析";
     // appendAttributedText
     [self addTextAttributedLabel];
     
