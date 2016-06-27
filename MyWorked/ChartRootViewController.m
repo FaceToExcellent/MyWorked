@@ -8,6 +8,13 @@
 
 #import "ChartRootViewController.h"
 #import "SingleBarChartViewController.h"
+#import "MultiBarChartViewController.h"
+#import "SingleLineChartViewController.h"
+#import "MultiLineChartViewController.h"
+#import "PieChartViewController.h"
+#import "WaveChartViewController.h"
+#import "SingleHorizontalBarChartViewController.h"
+#import "MultiHorizontalBarChartViewController.h"
 @interface ChartRootViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) NSArray * nameArray;
 @property(nonatomic,strong)UITableView * tableview;
@@ -17,6 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title=@"图表";
     self.nameArray = @[@"柱状图:一组数据(SingleBarChartViewController)",
                        @"柱状图:多组数据(MultiBarChartViewController)",
                        @"线状图:一组数据(SingleLineChartViewController)",
@@ -60,7 +68,37 @@
         [self.navigationController pushViewController:vc animated:YES];
         
     }
+    if (indexPath.row == 1) {
+        MultiBarChartViewController * vc =[[MultiBarChartViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+        
+    }
+   if (indexPath.row == 2){
+        SingleLineChartViewController * vc = [[SingleLineChartViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row == 3){
+        MultiLineChartViewController * vc = [[MultiLineChartViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    //懒得写了 剩下的是直接导入的
     
+    if (indexPath.row == 4){
+        PieChartViewController * vc = [[PieChartViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row == 5){
+        WaveChartViewController * vc = [[WaveChartViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row == 6){
+        SingleHorizontalBarChartViewController * vc = [[SingleHorizontalBarChartViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row == 7){
+        MultiHorizontalBarChartViewController * vc = [[MultiHorizontalBarChartViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 

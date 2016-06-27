@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title=@"简单柱状图";
     ZFBarChart *barChart =[[ZFBarChart alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT-64)];
     barChart.delegate=self;
     barChart.dataSource=self;
@@ -76,20 +77,22 @@
     NSLog(@"第%ld组========第%ld个",(long)groupIndex,(long)labelIndex);
 }
 
-
+//- (CGFloat)barWidthInBarChart:(ZFBarChart *)barChart{
+//    return 40.f;
+//}
+//
+//- (CGFloat)paddingForGroupsInBarChart:(ZFBarChart *)barChart{
+//    return 40.f;
+//}
+//
+//- (id)valueTextColorArrayInBarChart:(ZFGenericChart *)barChart{
+//    return ZFBlue;
+//}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

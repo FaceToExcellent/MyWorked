@@ -38,6 +38,13 @@
 		60326FE11D2101590069053C /* ZFWave.m in Sources */ = {isa = PBXBuildFile; fileRef = 60326FC71D2101590069053C /* ZFWave.m */; };
 		60326FE21D2101590069053C /* ZFWaveChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 60326FC91D2101590069053C /* ZFWaveChart.m */; };
 		60326FE51D21031C0069053C /* SingleBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60326FE41D21031C0069053C /* SingleBarChartViewController.m */; };
+		60326FE81D210AB20069053C /* MultiBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60326FE71D210AB20069053C /* MultiBarChartViewController.m */; };
+		60326FED1D210BAC0069053C /* SingleLineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60326FEA1D210BAC0069053C /* SingleLineChartViewController.m */; };
+		60326FEE1D210BAC0069053C /* MultiLineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60326FEC1D210BAC0069053C /* MultiLineChartViewController.m */; };
+		60326FF71D210C300069053C /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60326FF01D210C300069053C /* PieChartViewController.m */; };
+		60326FF81D210C300069053C /* WaveChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60326FF21D210C300069053C /* WaveChartViewController.m */; };
+		60326FF91D210C300069053C /* SingleHorizontalBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60326FF41D210C300069053C /* SingleHorizontalBarChartViewController.m */; };
+		60326FFA1D210C300069053C /* MultiHorizontalBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60326FF61D210C300069053C /* MultiHorizontalBarChartViewController.m */; };
 		603C787C1D1CE02E00F85B87 /* TextContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603C787B1D1CE02E00F85B87 /* TextContainerViewController.m */; };
 		603E79CB1D18E7FE009E52AF /* MideasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603E79CA1D18E7FE009E52AF /* MideasTableViewController.m */; };
 		603E79D11D1919C4009E52AF /* ZXRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603E79D01D1919C4009E52AF /* ZXRootTableViewController.m */; };
@@ -339,6 +346,20 @@
 		60326FC91D2101590069053C /* ZFWaveChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFWaveChart.m; sourceTree = "<group>"; };
 		60326FE31D21031C0069053C /* SingleBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleBarChartViewController.h; sourceTree = "<group>"; };
 		60326FE41D21031C0069053C /* SingleBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleBarChartViewController.m; sourceTree = "<group>"; };
+		60326FE61D210AB20069053C /* MultiBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiBarChartViewController.h; sourceTree = "<group>"; };
+		60326FE71D210AB20069053C /* MultiBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiBarChartViewController.m; sourceTree = "<group>"; };
+		60326FE91D210BAC0069053C /* SingleLineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleLineChartViewController.h; sourceTree = "<group>"; };
+		60326FEA1D210BAC0069053C /* SingleLineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleLineChartViewController.m; sourceTree = "<group>"; };
+		60326FEB1D210BAC0069053C /* MultiLineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiLineChartViewController.h; sourceTree = "<group>"; };
+		60326FEC1D210BAC0069053C /* MultiLineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiLineChartViewController.m; sourceTree = "<group>"; };
+		60326FEF1D210C300069053C /* PieChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartViewController.h; sourceTree = "<group>"; };
+		60326FF01D210C300069053C /* PieChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartViewController.m; sourceTree = "<group>"; };
+		60326FF11D210C300069053C /* WaveChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveChartViewController.h; sourceTree = "<group>"; };
+		60326FF21D210C300069053C /* WaveChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveChartViewController.m; sourceTree = "<group>"; };
+		60326FF31D210C300069053C /* SingleHorizontalBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleHorizontalBarChartViewController.h; sourceTree = "<group>"; };
+		60326FF41D210C300069053C /* SingleHorizontalBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleHorizontalBarChartViewController.m; sourceTree = "<group>"; };
+		60326FF51D210C300069053C /* MultiHorizontalBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiHorizontalBarChartViewController.h; sourceTree = "<group>"; };
+		60326FF61D210C300069053C /* MultiHorizontalBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiHorizontalBarChartViewController.m; sourceTree = "<group>"; };
 		603C787A1D1CE02E00F85B87 /* TextContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextContainerViewController.h; sourceTree = "<group>"; };
 		603C787B1D1CE02E00F85B87 /* TextContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextContainerViewController.m; sourceTree = "<group>"; };
 		603E79C91D18E7FE009E52AF /* MideasTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MideasTableViewController.h; sourceTree = "<group>"; };
@@ -824,6 +845,20 @@
 				60326F881D2100AE0069053C /* ChartRootViewController.m */,
 				60326FE31D21031C0069053C /* SingleBarChartViewController.h */,
 				60326FE41D21031C0069053C /* SingleBarChartViewController.m */,
+				60326FE61D210AB20069053C /* MultiBarChartViewController.h */,
+				60326FE71D210AB20069053C /* MultiBarChartViewController.m */,
+				60326FE91D210BAC0069053C /* SingleLineChartViewController.h */,
+				60326FEA1D210BAC0069053C /* SingleLineChartViewController.m */,
+				60326FEB1D210BAC0069053C /* MultiLineChartViewController.h */,
+				60326FEC1D210BAC0069053C /* MultiLineChartViewController.m */,
+				60326FEF1D210C300069053C /* PieChartViewController.h */,
+				60326FF01D210C300069053C /* PieChartViewController.m */,
+				60326FF11D210C300069053C /* WaveChartViewController.h */,
+				60326FF21D210C300069053C /* WaveChartViewController.m */,
+				60326FF31D210C300069053C /* SingleHorizontalBarChartViewController.h */,
+				60326FF41D210C300069053C /* SingleHorizontalBarChartViewController.m */,
+				60326FF51D210C300069053C /* MultiHorizontalBarChartViewController.h */,
+				60326FF61D210C300069053C /* MultiHorizontalBarChartViewController.m */,
 			);
 			name = "图表";
 			sourceTree = "<group>";
@@ -2143,6 +2178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60326FEE1D210BAC0069053C /* MultiLineChartViewController.m in Sources */,
 				604060791D1A6D9D0084C020 /* AFURLSessionManager.m in Sources */,
 				60405F5E1D1A2DAB0084C020 /* ViewController.m in Sources */,
 				6040605E1D1A6D9D0084C020 /* DemoVC7.m in Sources */,
@@ -2162,6 +2198,7 @@
 				60326FD31D2101590069053C /* ZFMethod.m in Sources */,
 				604060B61D1A6D9D0084C020 /* DemoVC14Cell.m in Sources */,
 				60326FE21D2101590069053C /* ZFWaveChart.m in Sources */,
+				60326FF71D210C300069053C /* PieChartViewController.m in Sources */,
 				6040607C1D1A6D9D0084C020 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				604060B81D1A6D9D0084C020 /* PhotosContainerView.m in Sources */,
 				6043997C1D1B8FB50063B475 /* NSMutableAttributedString+TY.m in Sources */,
@@ -2274,6 +2311,7 @@
 				604061481D1A6DCB0084C020 /* MKAnnotationView+WebCache.m in Sources */,
 				604060731D1A6D9D0084C020 /* AFHTTPSessionManager.m in Sources */,
 				60326F851D20D0400069053C /* mylabeltestViewController.m in Sources */,
+				60326FF91D210C300069053C /* SingleHorizontalBarChartViewController.m in Sources */,
 				604060801D1A6D9D0084C020 /* UIImageView+AFNetworking.m in Sources */,
 				60326FE11D2101590069053C /* ZFWave.m in Sources */,
 				604060901D1A6D9D0084C020 /* MJRefreshAutoFooter.m in Sources */,
@@ -2284,6 +2322,7 @@
 				6040607F1D1A6D9D0084C020 /* UIButton+AFNetworking.m in Sources */,
 				604060631D1A6D9D0084C020 /* DemoVC9.m in Sources */,
 				604399811D1B8FB50063B475 /* TYLinkTextStorage.m in Sources */,
+				60326FED1D210BAC0069053C /* SingleLineChartViewController.m in Sources */,
 				6040606D1D1A6D9D0084C020 /* SDWeiXinPhotoContainerView.m in Sources */,
 				604060A61D1A6D9D0084C020 /* Editor.m in Sources */,
 				604061561D1A6DCB0084C020 /* UIImageView+WebCache.m in Sources */,
@@ -2296,6 +2335,7 @@
 				604399831D1B8FB50063B475 /* TYTextContainer.m in Sources */,
 				604060961D1A6D9D0084C020 /* MJRefreshAutoNormalFooter.m in Sources */,
 				6040613C1D1A6DCB0084C020 /* TAPageControl.m in Sources */,
+				60326FE81D210AB20069053C /* MultiBarChartViewController.m in Sources */,
 				6040614F1D1A6DCB0084C020 /* SDWebImageManager.m in Sources */,
 				60326FD11D2101590069053C /* ZFYAxisLine.m in Sources */,
 				6040612B1D1A6DCB0084C020 /* MLEmojiLabel.m in Sources */,
@@ -2307,12 +2347,14 @@
 				60326FCA1D2101590069053C /* NSString+Zirkfied.m in Sources */,
 				604060B31D1A6D9D0084C020 /* DemoVC12.m in Sources */,
 				6040613D1D1A6DCB0084C020 /* SDCollectionViewCell.m in Sources */,
+				60326FF81D210C300069053C /* WaveChartViewController.m in Sources */,
 				604060AA1D1A6D9D0084C020 /* ThreeFirstCell.m in Sources */,
 				6040609B1D1A6D9D0084C020 /* MJRefreshGifHeader.m in Sources */,
 				604060A91D1A6D9D0084C020 /* ThreeBaseCell.m in Sources */,
 				604061541D1A6DCB0084C020 /* UIImage+WebP.m in Sources */,
 				6040614B1D1A6DCB0084C020 /* SDWebImageCompat.m in Sources */,
 				604399821D1B8FB50063B475 /* TYTextContainer+Extended.m in Sources */,
+				60326FFA1D210C300069053C /* MultiHorizontalBarChartViewController.m in Sources */,
 				6040607B1D1A6D9D0084C020 /* README.md in Sources */,
 				604061321D1A6DCB0084C020 /* NSString+MLExpression.m in Sources */,
 				60326FDB1D2101590069053C /* ZFCircle.m in Sources */,
