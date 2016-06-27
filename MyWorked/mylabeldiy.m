@@ -45,7 +45,6 @@
 -(UILabel *)setlabelfontwithRang:(NSRange)range font:(UIFont*)font{
      NSMutableAttributedString * str =(NSMutableAttributedString*)self.attributedText;
     //设置部分字段的字体大小与其他的不同 保持以前的参数基础下再修改
-
     if (font)
     {
         //[str removeAttribute:(NSString*)kCTFontAttributeName range:range]; 会吧颜色也去掉

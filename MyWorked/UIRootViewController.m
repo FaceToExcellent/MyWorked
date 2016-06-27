@@ -12,6 +12,7 @@
 #import "AutoLayoutViewController.h"
 #import "RichhhtextViewController.h"
 #import "mylabeltestViewController.h"
+#import "ChartRootViewController.h"
 @interface UIRootViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView * tableview;
 @property(nonatomic,strong)NSArray *listArray;
@@ -37,7 +38,7 @@
 -(void)makeUI
 {
     
-    _listArray = @[@"模糊",@"AutoLayout",@"富文本",@"自己封装label"];
+    _listArray = @[@"模糊",@"AutoLayout",@"富文本",@"自己封装label",@"图表"];
     
     _tableview=[[UITableView alloc]init];
     _tableview.frame=CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
@@ -100,9 +101,12 @@
         
     }
     
-    
     if (indexPath.row==3) {
         mylabeltestViewController *vc =[[mylabeltestViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row==4) {
+        ChartRootViewController *vc =[[ChartRootViewController alloc]init];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }
