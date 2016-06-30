@@ -38,7 +38,7 @@
 -(void)makeUI
 {
     
-    _listArray = @[@"模糊",@"AutoLayout",@"富文本",@"自己封装label",@"图表"];
+    _listArray = @[@"模糊",@"AutoLayout",@"富文本",@"自己封装label",@"图表",@"各种功能view"];
     
     _tableview=[[UITableView alloc]init];
     _tableview.frame=CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
