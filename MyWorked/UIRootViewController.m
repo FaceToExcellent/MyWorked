@@ -13,6 +13,7 @@
 #import "RichhhtextViewController.h"
 #import "mylabeltestViewController.h"
 #import "ChartRootViewController.h"
+#import "CalenderViewController.h"
 @interface UIRootViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView * tableview;
 @property(nonatomic,strong)NSArray *listArray;
@@ -107,6 +108,10 @@
     }
     if (indexPath.row==4) {
         ChartRootViewController *vc =[[ChartRootViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row==5) {
+        CalenderViewController *vc =[[CalenderViewController alloc]init];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }
