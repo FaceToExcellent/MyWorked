@@ -10,6 +10,7 @@
 
 #import "ZXRootTableViewController.h"
 #import "UIRootViewController.h"
+#import "AnimationsListViewController.h"
 @interface RootViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView * tableview;
 @property(nonatomic,strong)NSArray *listArray;
@@ -88,6 +89,11 @@
     }
     if (indexPath.row==1) {
         UIRootViewController *vc =[[UIRootViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+        
+    }
+    if (indexPath.row==2) {
+        AnimationsListViewController *vc =[[AnimationsListViewController alloc]init];
         [self.navigationController pushViewController:vc animated:YES];
         
     }

@@ -74,7 +74,7 @@
 #pragma mark //9 取消导航栏返回按钮的title
     
    //[[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60) forBarMetrics:UIBarMetricsDefault];
-#pragma mark //10 UITableViewCell中的使用cell和cell.contentView的区别
+#pragma mark //。
     
     //区别在于进行cell编辑时，比如cell内容向左移或者右移时，第一种方式子视图不会移动，第二种可以，所以这种情况一般使用第二种方式。还有在设置backgroundColor时，使用cell设置时左移或者右移颜色是不会变的，而用cell.contentCell设置时，移动后的空白会显示cell的默认颜色，这种情况视实际情况选择。其实这两种方式在大多数情况是一样，不用纠结
 #pragma mark //11项目中需要注意的地方
