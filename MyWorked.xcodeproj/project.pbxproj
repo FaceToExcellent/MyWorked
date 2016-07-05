@@ -294,6 +294,7 @@
 		604399881D1B8FF80063B475 /* RichhhtextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604399871D1B8FF80063B475 /* RichhhtextViewController.m */; };
 		605ADCA41D2B54AC006DFF59 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 605ADCA31D2B54AC006DFF59 /* CircleView.m */; };
 		605ADCA71D2B5E2E006DFF59 /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 605ADCA61D2B5E2E006DFF59 /* ImageView.m */; };
+		605ADCAB1D2B9992006DFF59 /* gifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605ADCAA1D2B9992006DFF59 /* gifViewController.swift */; };
 		608E91121D2A07BF00CA527C /* FlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 608E91111D2A07BF00CA527C /* FlatButton.m */; };
 		60FCAE351D27696200B2C595 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE001D27696200B2C595 /* POPAnimatableProperty.mm */; };
 		60FCAE361D27696200B2C595 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE021D27696200B2C595 /* POPAnimation.mm */; };
@@ -855,6 +856,8 @@
 		605ADCA31D2B54AC006DFF59 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 		605ADCA51D2B5E2E006DFF59 /* ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
 		605ADCA61D2B5E2E006DFF59 /* ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageView.m; sourceTree = "<group>"; };
+		605ADCA91D2B9992006DFF59 /* MyWorked-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyWorked-Bridging-Header.h"; sourceTree = "<group>"; };
+		605ADCAA1D2B9992006DFF59 /* gifViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gifViewController.swift; sourceTree = "<group>"; };
 		608E91101D2A07BF00CA527C /* FlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatButton.h; sourceTree = "<group>"; };
 		608E91111D2A07BF00CA527C /* FlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatButton.m; sourceTree = "<group>"; };
 		60E6E8101D1BB90B002BB11D /* myworked_PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myworked_PrefixHeader.pch; sourceTree = "<group>"; };
@@ -2283,13 +2286,23 @@
 			path = TYAttributedLabel;
 			sourceTree = "<group>";
 		};
+		605ADCA81D2B9935006DFF59 /* gif */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = gif;
+			sourceTree = "<group>";
+		};
 		60FCADFA1D27693400B2C595 /* 动画 */ = {
 			isa = PBXGroup;
 			children = (
+				605ADCA81D2B9935006DFF59 /* gif */,
 				60FCAE4A1D2769F800B2C595 /* AnimationsListViewController.h */,
 				60FCAE4B1D2769F800B2C595 /* AnimationsListViewController.m */,
+				605ADCAA1D2B9992006DFF59 /* gifViewController.swift */,
 				60FCAE341D27696200B2C595 /* pop */,
 				60FCADFB1D27694400B2C595 /* popping */,
+				605ADCA91D2B9992006DFF59 /* MyWorked-Bridging-Header.h */,
 			);
 			name = "动画";
 			sourceTree = "<group>";
@@ -2673,6 +2686,7 @@
 				604061401D1A6DCB0084C020 /* SDBrowserImageView.m in Sources */,
 				604060681D1A6D9D0084C020 /* SDTimeLineTableViewController.m in Sources */,
 				605ADCA71D2B5E2E006DFF59 /* ImageView.m in Sources */,
+				605ADCAB1D2B9992006DFF59 /* gifViewController.swift in Sources */,
 				604060B41D1A6D9D0084C020 /* DemoVC13.m in Sources */,
 				603E79DB1D191E53009E52AF /* FXBlurView.m in Sources */,
 				603EAB4F1D17FC2100E481FD /* AppDelegate.m in Sources */,
@@ -2869,12 +2883,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MyWorked/myworked_PrefixHeader.pch";
 				INFOPLIST_FILE = MyWorked/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calayer.MyWorked;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyWorked/MyWorked-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -2882,12 +2900,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MyWorked/myworked_PrefixHeader.pch";
 				INFOPLIST_FILE = MyWorked/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.calayer.MyWorked;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyWorked/MyWorked-Bridging-Header.h";
 			};
 			name = Release;
 		};

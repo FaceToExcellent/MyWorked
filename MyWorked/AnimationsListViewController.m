@@ -15,6 +15,10 @@
 #import "MenuTableViewCell.h"
 #import "UIColor+CustomColors.m"
 
+// 1 build setting 中 搜索 swift  确保参数正常 2.修改 Defines Module 为 Yes 3 然后创建 swift文件 依据提示 建立桥接文件 MyWorked-Bridging-Header 4.在桥接文件中添加要用到swift 文件的 文件名 
+#import "MyWorked-swift.h"
+
+
 static NSString * const kCellIdentifier = @"cellIdentifier";
 @interface AnimationsListViewController ()
 @property(nonatomic) NSArray *items;
