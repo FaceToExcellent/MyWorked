@@ -8,7 +8,6 @@
 
 #import "MenuTableViewCell.h"
 #import "UIColor+CustomColors.h"
-//#import <POP/POP.h>
 #import "POP.h"
 @implementation MenuTableViewCell
 

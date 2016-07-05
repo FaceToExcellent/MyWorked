@@ -43,7 +43,7 @@ static NSString * const kCellIdentifier = @"cellIdentifier";
                    @[@"Circle Animation", [CircleViewController class]],
                    @[@"Image Animation", [ImageViewController class]],
                    @[@"Constraints Animation", [ConstraintsViewController class]]
-                   ];
+                   ,@[@"giftest ",[gifViewController class]]];
     [self.tableView registerClass:[MenuTableViewCell class]
            forCellReuseIdentifier:kCellIdentifier];
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
