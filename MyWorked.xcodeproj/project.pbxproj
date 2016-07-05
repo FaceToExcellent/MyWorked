@@ -319,9 +319,6 @@
 		60FCAE4C1D2769F800B2C595 /* AnimationsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE4B1D2769F800B2C595 /* AnimationsListViewController.m */; };
 		60FCAE4F1D276E9100B2C595 /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE4E1D276E9100B2C595 /* ButtonViewController.m */; };
 		60FCAE521D276EA900B2C595 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE511D276EA900B2C595 /* ImageViewController.m */; };
-		60FCAE551D276EBE00B2C595 /* PaperButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE541D276EBE00B2C595 /* PaperButtonViewController.m */; };
-		60FCAE591D276ED600B2C595 /* CustomTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE581D276ED600B2C595 /* CustomTransitionViewController.m */; };
-		60FCAE5C1D276EE800B2C595 /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE5B1D276EE800B2C595 /* PasswordViewController.m */; };
 		60FCAE5F1D276EFA00B2C595 /* ConstraintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE5E1D276EFA00B2C595 /* ConstraintsViewController.m */; };
 		60FCAE621D276F0C00B2C595 /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE611D276F0C00B2C595 /* CircleViewController.m */; };
 		60FCAE651D276F1E00B2C595 /* DecayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE641D276F1E00B2C595 /* DecayViewController.m */; };
@@ -923,12 +920,6 @@
 		60FCAE4E1D276E9100B2C595 /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
 		60FCAE501D276EA900B2C595 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
 		60FCAE511D276EA900B2C595 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
-		60FCAE531D276EBE00B2C595 /* PaperButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperButtonViewController.h; sourceTree = "<group>"; };
-		60FCAE541D276EBE00B2C595 /* PaperButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperButtonViewController.m; sourceTree = "<group>"; };
-		60FCAE571D276ED600B2C595 /* CustomTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTransitionViewController.h; sourceTree = "<group>"; };
-		60FCAE581D276ED600B2C595 /* CustomTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionViewController.m; sourceTree = "<group>"; };
-		60FCAE5A1D276EE800B2C595 /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
-		60FCAE5B1D276EE800B2C595 /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
 		60FCAE5D1D276EFA00B2C595 /* ConstraintsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstraintsViewController.h; sourceTree = "<group>"; };
 		60FCAE5E1D276EFA00B2C595 /* ConstraintsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstraintsViewController.m; sourceTree = "<group>"; };
 		60FCAE601D276F0C00B2C595 /* CircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleViewController.h; sourceTree = "<group>"; };
@@ -2323,12 +2314,6 @@
 				60FCAE511D276EA900B2C595 /* ImageViewController.m */,
 				605ADCA51D2B5E2E006DFF59 /* ImageView.h */,
 				605ADCA61D2B5E2E006DFF59 /* ImageView.m */,
-				60FCAE531D276EBE00B2C595 /* PaperButtonViewController.h */,
-				60FCAE541D276EBE00B2C595 /* PaperButtonViewController.m */,
-				60FCAE571D276ED600B2C595 /* CustomTransitionViewController.h */,
-				60FCAE581D276ED600B2C595 /* CustomTransitionViewController.m */,
-				60FCAE5A1D276EE800B2C595 /* PasswordViewController.h */,
-				60FCAE5B1D276EE800B2C595 /* PasswordViewController.m */,
 				60FCAE5D1D276EFA00B2C595 /* ConstraintsViewController.h */,
 				60FCAE5E1D276EFA00B2C595 /* ConstraintsViewController.m */,
 				60FCAE601D276F0C00B2C595 /* CircleViewController.h */,
@@ -2679,11 +2664,9 @@
 				603E79E81D192784009E52AF /* AutoLayoutViewController.m in Sources */,
 				6040605D1D1A6D9D0084C020 /* DemoVC6.m in Sources */,
 				6040608E1D1A6D9D0084C020 /* NSString+MJExtension.m in Sources */,
-				60FCAE591D276ED600B2C595 /* CustomTransitionViewController.m in Sources */,
 				604060751D1A6D9D0084C020 /* AFSecurityPolicy.m in Sources */,
 				604060981D1A6D9D0084C020 /* MJRefreshBackGifFooter.m in Sources */,
 				60FCAE351D27696200B2C595 /* POPAnimatableProperty.mm in Sources */,
-				60FCAE5C1D276EE800B2C595 /* PasswordViewController.m in Sources */,
 				6040609C1D1A6D9D0084C020 /* MJRefreshNormalHeader.m in Sources */,
 				604060861D1A6D9D0084C020 /* MJFoundation.m in Sources */,
 				60326FCE1D2101590069053C /* ZFLabel.m in Sources */,
@@ -2714,7 +2697,6 @@
 				60326FE11D2101590069053C /* ZFWave.m in Sources */,
 				604060901D1A6D9D0084C020 /* MJRefreshAutoFooter.m in Sources */,
 				60FCAE401D27696200B2C595 /* POPGeometry.mm in Sources */,
-				60FCAE551D276EBE00B2C595 /* PaperButtonViewController.m in Sources */,
 				603EAB791D17FC8200E481FD /* OOOPPPViewController.m in Sources */,
 				608E91121D2A07BF00CA527C /* FlatButton.m in Sources */,
 				60326FDD1D2101590069053C /* ZFLineChart.m in Sources */,

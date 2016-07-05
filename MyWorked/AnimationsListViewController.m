@@ -9,9 +9,6 @@
 #import "AnimationsListViewController.h"
 #import "ButtonViewController.h"
 #import "ImageViewController.h"
-#import "PaperButtonViewController.h"
-#import "CustomTransitionViewController.h"
-#import "PasswordViewController.h"
 #import "ConstraintsViewController.h"
 #import "CircleViewController.h"
 #import "DecayViewController.h"
@@ -42,10 +39,8 @@ static NSString * const kCellIdentifier = @"cellIdentifier";
                    @[@"Decay Animation", [DecayViewController class]],
                    @[@"Circle Animation", [CircleViewController class]],
                    @[@"Image Animation", [ImageViewController class]],
-                   @[@"Custom Transition", [CustomTransitionViewController class]],
-                   @[@"Paper Button Animation", [PaperButtonViewController class]],
+                 
                    @[@"Folding Animation", [FoldingViewController class]],
-                   @[@"Password Indicator Animation", [PasswordViewController class]],
                    @[@"Constraints Animation", [ConstraintsViewController class]]
                    ];
     [self.tableView registerClass:[MenuTableViewCell class]
