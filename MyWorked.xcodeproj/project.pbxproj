@@ -293,6 +293,7 @@
 		604399851D1B8FB50063B475 /* TYViewStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6043997B1D1B8FB50063B475 /* TYViewStorage.m */; };
 		604399881D1B8FF80063B475 /* RichhhtextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604399871D1B8FF80063B475 /* RichhhtextViewController.m */; };
 		605ADCA41D2B54AC006DFF59 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 605ADCA31D2B54AC006DFF59 /* CircleView.m */; };
+		605ADCA71D2B5E2E006DFF59 /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 605ADCA61D2B5E2E006DFF59 /* ImageView.m */; };
 		608E91121D2A07BF00CA527C /* FlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 608E91111D2A07BF00CA527C /* FlatButton.m */; };
 		60FCAE351D27696200B2C595 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE001D27696200B2C595 /* POPAnimatableProperty.mm */; };
 		60FCAE361D27696200B2C595 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE021D27696200B2C595 /* POPAnimation.mm */; };
@@ -856,6 +857,8 @@
 		604399871D1B8FF80063B475 /* RichhhtextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RichhhtextViewController.m; sourceTree = "<group>"; };
 		605ADCA21D2B54AC006DFF59 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
 		605ADCA31D2B54AC006DFF59 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		605ADCA51D2B5E2E006DFF59 /* ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
+		605ADCA61D2B5E2E006DFF59 /* ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageView.m; sourceTree = "<group>"; };
 		608E91101D2A07BF00CA527C /* FlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatButton.h; sourceTree = "<group>"; };
 		608E91111D2A07BF00CA527C /* FlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatButton.m; sourceTree = "<group>"; };
 		60E6E8101D1BB90B002BB11D /* myworked_PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myworked_PrefixHeader.pch; sourceTree = "<group>"; };
@@ -2318,6 +2321,8 @@
 				60FCAE4E1D276E9100B2C595 /* ButtonViewController.m */,
 				60FCAE501D276EA900B2C595 /* ImageViewController.h */,
 				60FCAE511D276EA900B2C595 /* ImageViewController.m */,
+				605ADCA51D2B5E2E006DFF59 /* ImageView.h */,
+				605ADCA61D2B5E2E006DFF59 /* ImageView.m */,
 				60FCAE531D276EBE00B2C595 /* PaperButtonViewController.h */,
 				60FCAE541D276EBE00B2C595 /* PaperButtonViewController.m */,
 				60FCAE571D276ED600B2C595 /* CustomTransitionViewController.h */,
@@ -2689,6 +2694,7 @@
 				604061301D1A6DCB0084C020 /* MLTextAttachment.m in Sources */,
 				604061401D1A6DCB0084C020 /* SDBrowserImageView.m in Sources */,
 				604060681D1A6D9D0084C020 /* SDTimeLineTableViewController.m in Sources */,
+				605ADCA71D2B5E2E006DFF59 /* ImageView.m in Sources */,
 				604060B41D1A6D9D0084C020 /* DemoVC13.m in Sources */,
 				603E79DB1D191E53009E52AF /* FXBlurView.m in Sources */,
 				603EAB4F1D17FC2100E481FD /* AppDelegate.m in Sources */,

@@ -8,11 +8,7 @@
 
 #import "CircleView.h"
 #import "POP.h"
-@interface CircleView()
-@property(nonatomic) CAShapeLayer *circleLayer;
-- (void)addCircleLayer;
-- (void)animateToStrokeEnd:(CGFloat)strokeEnd;
-@end
+
 
 @implementation CircleView
 

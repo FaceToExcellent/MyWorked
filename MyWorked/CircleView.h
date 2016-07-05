@@ -11,7 +11,9 @@
 @interface CircleView : UIView
 @property(nonatomic) UIColor * strokeColor;
 
-
+@property(nonatomic) CAShapeLayer *circleLayer;
+- (void)addCircleLayer;
+- (void)animateToStrokeEnd:(CGFloat)strokeEnd;
 - (void)setStrokeEnd:(CGFloat)strokeEnd animated:(BOOL)animated;
 
 @end
