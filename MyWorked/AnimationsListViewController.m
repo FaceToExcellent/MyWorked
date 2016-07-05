@@ -12,7 +12,6 @@
 #import "ConstraintsViewController.h"
 #import "CircleViewController.h"
 #import "DecayViewController.h"
-#import "FoldingViewController.h"
 #import "MenuTableViewCell.h"
 #import "UIColor+CustomColors.m"
 
@@ -39,8 +38,6 @@ static NSString * const kCellIdentifier = @"cellIdentifier";
                    @[@"Decay Animation", [DecayViewController class]],
                    @[@"Circle Animation", [CircleViewController class]],
                    @[@"Image Animation", [ImageViewController class]],
-                 
-                   @[@"Folding Animation", [FoldingViewController class]],
                    @[@"Constraints Animation", [ConstraintsViewController class]]
                    ];
     [self.tableView registerClass:[MenuTableViewCell class]

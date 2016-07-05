@@ -91,7 +91,7 @@
     NSString *firstViewKey= viewNames[0];
     NSString *secondViewKey = viewNames[1];
     NSString *thirdViewKey = viewNames[2];
-    
+    //正则不会啊 直接复制上的 
     NSString *horizontalFormat = [NSString stringWithFormat:@"H:|-(20)-[%@]-(20)-|", firstViewKey];
     NSString *additionalHorizontalFormat = [NSString stringWithFormat:@"H:|-(20)-[%1$@]-(20)-[%2$@(==%1$@)]-(20)-|", secondViewKey, thirdViewKey];
     NSString *verticalFormat = [NSString stringWithFormat:@"V:|-(88)-[%1$@]-(20)-[%2$@(==%1$@)]-(20)-|", firstViewKey, secondViewKey];

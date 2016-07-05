@@ -322,7 +322,6 @@
 		60FCAE5F1D276EFA00B2C595 /* ConstraintsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE5E1D276EFA00B2C595 /* ConstraintsViewController.m */; };
 		60FCAE621D276F0C00B2C595 /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE611D276F0C00B2C595 /* CircleViewController.m */; };
 		60FCAE651D276F1E00B2C595 /* DecayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE641D276F1E00B2C595 /* DecayViewController.m */; };
-		60FCAE681D276F3000B2C595 /* FoldingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE671D276F3000B2C595 /* FoldingViewController.m */; };
 		60FCAE6B1D2770AE00B2C595 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE6A1D2770AE00B2C595 /* MenuTableViewCell.m */; };
 		60FCAE6E1D2770BD00B2C595 /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE6D1D2770BD00B2C595 /* UIColor+CustomColors.m */; };
 		60FCAE711D2770C600B2C595 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FCAE701D2770C600B2C595 /* UIImage+Blur.m */; };
@@ -926,8 +925,6 @@
 		60FCAE611D276F0C00B2C595 /* CircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleViewController.m; sourceTree = "<group>"; };
 		60FCAE631D276F1E00B2C595 /* DecayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecayViewController.h; sourceTree = "<group>"; };
 		60FCAE641D276F1E00B2C595 /* DecayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecayViewController.m; sourceTree = "<group>"; };
-		60FCAE661D276F3000B2C595 /* FoldingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldingViewController.h; sourceTree = "<group>"; };
-		60FCAE671D276F3000B2C595 /* FoldingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldingViewController.m; sourceTree = "<group>"; };
 		60FCAE691D2770AE00B2C595 /* MenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewCell.h; sourceTree = "<group>"; };
 		60FCAE6A1D2770AE00B2C595 /* MenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
 		60FCAE6C1D2770BD00B2C595 /* UIColor+CustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColors.h"; sourceTree = "<group>"; };
@@ -2322,8 +2319,6 @@
 				605ADCA31D2B54AC006DFF59 /* CircleView.m */,
 				60FCAE631D276F1E00B2C595 /* DecayViewController.h */,
 				60FCAE641D276F1E00B2C595 /* DecayViewController.m */,
-				60FCAE661D276F3000B2C595 /* FoldingViewController.h */,
-				60FCAE671D276F3000B2C595 /* FoldingViewController.m */,
 			);
 			name = popping;
 			sourceTree = "<group>";
@@ -2707,7 +2702,6 @@
 				604399811D1B8FB50063B475 /* TYLinkTextStorage.m in Sources */,
 				60326FED1D210BAC0069053C /* SingleLineChartViewController.m in Sources */,
 				6040606D1D1A6D9D0084C020 /* SDWeiXinPhotoContainerView.m in Sources */,
-				60FCAE681D276F3000B2C595 /* FoldingViewController.m in Sources */,
 				604060A61D1A6D9D0084C020 /* Editor.m in Sources */,
 				604061561D1A6DCB0084C020 /* UIImageView+WebCache.m in Sources */,
 				6040612E1D1A6DCB0084C020 /* NSString+MLLabel.m in Sources */,
