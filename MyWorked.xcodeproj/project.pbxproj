@@ -267,6 +267,7 @@
 		604061B61D1A6E560084C020 /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 604061871D1A6E560084C020 /* test2.jpg */; };
 		604061B71D1A6E560084C020 /* test3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 604061881D1A6E560084C020 /* test3.jpg */; };
 		604061B81D1A6E560084C020 /* test4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 604061891D1A6E560084C020 /* test4.jpg */; };
+		60418A851D2CF2F800A2DE99 /* AFnetttttViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60418A841D2CF2F800A2DE99 /* AFnetttttViewController.m */; };
 		6042A7C01D24F0320028A181 /* JTCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6042A7A01D24F0320028A181 /* JTCalendarManager.m */; };
 		6042A7C11D24F0320028A181 /* JTCalendarSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6042A7A21D24F0320028A181 /* JTCalendarSettings.m */; };
 		6042A7C21D24F0320028A181 /* JTDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6042A7A41D24F0320028A181 /* JTDateHelper.m */; };
@@ -793,6 +794,8 @@
 		604061871D1A6E560084C020 /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
 		604061881D1A6E560084C020 /* test3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test3.jpg; sourceTree = "<group>"; };
 		604061891D1A6E560084C020 /* test4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test4.jpg; sourceTree = "<group>"; };
+		60418A831D2CF2F800A2DE99 /* AFnetttttViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFnetttttViewController.h; sourceTree = "<group>"; };
+		60418A841D2CF2F800A2DE99 /* AFnetttttViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFnetttttViewController.m; sourceTree = "<group>"; };
 		6042A79D1D24F0320028A181 /* JTCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendar.h; sourceTree = "<group>"; };
 		6042A79E1D24F0320028A181 /* JTCalendarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarDelegate.h; sourceTree = "<group>"; };
 		6042A79F1D24F0320028A181 /* JTCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCalendarManager.h; sourceTree = "<group>"; };
@@ -1260,6 +1263,7 @@
 				603EAB4E1D17FC2100E481FD /* AppDelegate.m */,
 				603EAB6E1D17FC8200E481FD /* RootViewController.h */,
 				603EAB6F1D17FC8200E481FD /* RootViewController.m */,
+				60418A651D2CF2AC00A2DE99 /* 网络 */,
 				60FCADFA1D27693400B2C595 /* 动画 */,
 				603E79CD1D1918B0009E52AF /* 杂项 */,
 				603E79CC1D19189A009E52AF /* UI */,
@@ -2194,6 +2198,15 @@
 			name = plist;
 			sourceTree = "<group>";
 		};
+		60418A651D2CF2AC00A2DE99 /* 网络 */ = {
+			isa = PBXGroup;
+			children = (
+				60418A831D2CF2F800A2DE99 /* AFnetttttViewController.h */,
+				60418A841D2CF2F800A2DE99 /* AFnetttttViewController.m */,
+			);
+			name = "网络";
+			sourceTree = "<group>";
+		};
 		6042A79C1D24F0320028A181 /* JTCalendar */ = {
 			isa = PBXGroup;
 			children = (
@@ -2676,6 +2689,7 @@
 				603E79D11D1919C4009E52AF /* ZXRootTableViewController.m in Sources */,
 				604060741D1A6D9D0084C020 /* AFNetworkReachabilityManager.m in Sources */,
 				604061331D1A6DCB0084C020 /* MLLabelLayoutManager.m in Sources */,
+				60418A851D2CF2F800A2DE99 /* AFnetttttViewController.m in Sources */,
 				603E79D71D191E03009E52AF /* FXBLurViewController.m in Sources */,
 				604061301D1A6DCB0084C020 /* MLTextAttachment.m in Sources */,
 				60B189031D2BAAA900544E2D /* TransformationMatrix.cpp in Sources */,
