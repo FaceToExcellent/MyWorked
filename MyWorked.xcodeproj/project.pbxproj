@@ -292,6 +292,10 @@
 		604399841D1B8FB50063B475 /* TYTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 604399781D1B8FB50063B475 /* TYTextStorage.m */; };
 		604399851D1B8FB50063B475 /* TYViewStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6043997B1D1B8FB50063B475 /* TYViewStorage.m */; };
 		604399881D1B8FF80063B475 /* RichhhtextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604399871D1B8FF80063B475 /* RichhhtextViewController.m */; };
+		604876DA1D2DF56300C5F4EC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 604876D61D2DF56300C5F4EC /* Info.plist */; };
+		604876DB1D2DF56300C5F4EC /* JWAnimatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604876D71D2DF56300C5F4EC /* JWAnimatedImage.swift */; };
+		604876DC1D2DF56300C5F4EC /* JWAnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604876D81D2DF56300C5F4EC /* JWAnimatedImageView.swift */; };
+		604876DD1D2DF56300C5F4EC /* JWAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604876D91D2DF56300C5F4EC /* JWAnimationManager.swift */; };
 		605ADCA41D2B54AC006DFF59 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 605ADCA31D2B54AC006DFF59 /* CircleView.m */; };
 		605ADCA71D2B5E2E006DFF59 /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 605ADCA61D2B5E2E006DFF59 /* ImageView.m */; };
 		605ADCAB1D2B9992006DFF59 /* gifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605ADCAA1D2B9992006DFF59 /* gifViewController.swift */; };
@@ -853,6 +857,10 @@
 		6043997B1D1B8FB50063B475 /* TYViewStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewStorage.m; sourceTree = "<group>"; };
 		604399861D1B8FF80063B475 /* RichhhtextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichhhtextViewController.h; sourceTree = "<group>"; };
 		604399871D1B8FF80063B475 /* RichhhtextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RichhhtextViewController.m; sourceTree = "<group>"; };
+		604876D61D2DF56300C5F4EC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604876D71D2DF56300C5F4EC /* JWAnimatedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWAnimatedImage.swift; sourceTree = "<group>"; };
+		604876D81D2DF56300C5F4EC /* JWAnimatedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWAnimatedImageView.swift; sourceTree = "<group>"; };
+		604876D91D2DF56300C5F4EC /* JWAnimationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWAnimationManager.swift; sourceTree = "<group>"; };
 		605ADCA21D2B54AC006DFF59 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
 		605ADCA31D2B54AC006DFF59 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 		605ADCA51D2B5E2E006DFF59 /* ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
@@ -2299,9 +2307,21 @@
 			path = TYAttributedLabel;
 			sourceTree = "<group>";
 		};
+		604876D51D2DF56300C5F4EC /* JWAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				604876D61D2DF56300C5F4EC /* Info.plist */,
+				604876D71D2DF56300C5F4EC /* JWAnimatedImage.swift */,
+				604876D81D2DF56300C5F4EC /* JWAnimatedImageView.swift */,
+				604876D91D2DF56300C5F4EC /* JWAnimationManager.swift */,
+			);
+			path = JWAnimatedImage;
+			sourceTree = "<group>";
+		};
 		605ADCA81D2B9935006DFF59 /* gif */ = {
 			isa = PBXGroup;
 			children = (
+				604876D51D2DF56300C5F4EC /* JWAnimatedImage */,
 				60B188A61D2BA04D00544E2D /* ImageIO.framework */,
 			);
 			name = gif;
@@ -2513,6 +2533,7 @@
 				6040618B1D1A6E560084C020 /* 1.jpg in Resources */,
 				6040619E1D1A6E560084C020 /* 6.jpg in Resources */,
 				60B188A31D2B9EEC00544E2D /* test.gif in Resources */,
+				604876DA1D2DF56300C5F4EC /* Info.plist in Resources */,
 				6040618A1D1A6E560084C020 /* 0.jpg in Resources */,
 				604061281D1A6DCB0084C020 /* MLEmoji_Expression.bundle in Resources */,
 				60326F7B1D20C9B80069053C /* content.json in Resources */,
@@ -2571,6 +2592,7 @@
 				60326FD01D2101590069053C /* ZFXAxisLine.m in Sources */,
 				60405F561D1A26420084C020 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				60326FD31D2101590069053C /* ZFMethod.m in Sources */,
+				604876DC1D2DF56300C5F4EC /* JWAnimatedImageView.swift in Sources */,
 				604060B61D1A6D9D0084C020 /* DemoVC14Cell.m in Sources */,
 				60326FE21D2101590069053C /* ZFWaveChart.m in Sources */,
 				60326FF71D210C300069053C /* PieChartViewController.m in Sources */,
@@ -2655,6 +2677,7 @@
 				604060721D1A6D9D0084C020 /* AFHTTPRequestOperationManager.m in Sources */,
 				604060AD1D1A6D9D0084C020 /* ThreeThirdCell.m in Sources */,
 				604060671D1A6D9D0084C020 /* SDTimeLineCellModel.m in Sources */,
+				604876DB1D2DF56300C5F4EC /* JWAnimatedImage.swift in Sources */,
 				6040609D1D1A6D9D0084C020 /* MJRefreshStateHeader.m in Sources */,
 				60326FE51D21031C0069053C /* SingleBarChartViewController.m in Sources */,
 				6043997D1D1B8FB50063B475 /* TYAttributedLabel.m in Sources */,
@@ -2719,6 +2742,7 @@
 				604060901D1A6D9D0084C020 /* MJRefreshAutoFooter.m in Sources */,
 				603EAB791D17FC8200E481FD /* OOOPPPViewController.m in Sources */,
 				608E91121D2A07BF00CA527C /* FlatButton.m in Sources */,
+				604876DD1D2DF56300C5F4EC /* JWAnimationManager.swift in Sources */,
 				60326FDD1D2101590069053C /* ZFLineChart.m in Sources */,
 				604060841D1A6D9D0084C020 /* MJDictionaryCache.m in Sources */,
 				604061311D1A6DCB0084C020 /* NSAttributedString+MLExpression.m in Sources */,
