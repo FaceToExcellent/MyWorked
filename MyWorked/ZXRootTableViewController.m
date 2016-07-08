@@ -36,7 +36,7 @@
 -(void)makeUI
 {
     
-    _listArray = @[@"新人在开发初期遇到的各种问题",@"分组点击收起与展开",@"顶部搜索城市",@"改变图片颜色",@"知识点整理2"];
+    _listArray = @[@"新人在开发初期遇到的各种问题",@"分组点击收起与展开",@"改变图片颜色",@"知识点整理2"];
     
     _tableview=[[UITableView alloc]init];
     _tableview.frame=CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
@@ -93,12 +93,7 @@
         [self.navigationController pushViewController:vc animated:YES];
         
     }
-    if (indexPath.row==2) {
-        TopsearchViewController *vc =[[TopsearchViewController alloc]init];
-        
-        [self.navigationController pushViewController:vc animated:YES];
-        
-    }
+   
     if (indexPath.row==3) {
         ViewActionViewController *vc =[[ViewActionViewController alloc]init];
         

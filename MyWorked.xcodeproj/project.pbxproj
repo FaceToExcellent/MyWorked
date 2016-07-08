@@ -1212,8 +1212,6 @@
 				603EAB6D1D17FC8200E481FD /* OOOPPPViewController.m */,
 				603EAB701D17FC8200E481FD /* tieziceshiViewController.h */,
 				603EAB711D17FC8200E481FD /* tieziceshiViewController.m */,
-				603EAB721D17FC8200E481FD /* TopsearchViewController.h */,
-				603EAB731D17FC8200E481FD /* TopsearchViewController.m */,
 				603EAB741D17FC8200E481FD /* ViewActionViewController.h */,
 				603EAB751D17FC8200E481FD /* ViewActionViewController.m */,
 				603E79C91D18E7FE009E52AF /* MideasTableViewController.h */,
@@ -1271,6 +1269,7 @@
 				603EAB4E1D17FC2100E481FD /* AppDelegate.m */,
 				603EAB6E1D17FC8200E481FD /* RootViewController.h */,
 				603EAB6F1D17FC8200E481FD /* RootViewController.m */,
+				606D790D1D2F46360046614C /* 通讯录 */,
 				60418A651D2CF2AC00A2DE99 /* 网络 */,
 				60FCADFA1D27693400B2C595 /* 动画 */,
 				603E79CD1D1918B0009E52AF /* 杂项 */,
@@ -2325,6 +2324,15 @@
 				60B188A61D2BA04D00544E2D /* ImageIO.framework */,
 			);
 			name = gif;
+			sourceTree = "<group>";
+		};
+		606D790D1D2F46360046614C /* 通讯录 */ = {
+			isa = PBXGroup;
+			children = (
+				603EAB721D17FC8200E481FD /* TopsearchViewController.h */,
+				603EAB731D17FC8200E481FD /* TopsearchViewController.m */,
+			);
+			name = "通讯录";
 			sourceTree = "<group>";
 		};
 		60B188BD1D2BAAA900544E2D /* pop */ = {

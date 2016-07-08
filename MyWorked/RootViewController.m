@@ -12,6 +12,7 @@
 #import "UIRootViewController.h"
 #import "AnimationsListViewController.h"
 #import "AFnetttttViewController.h"
+#import "TopsearchViewController.h"
 @interface RootViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView * tableview;
 @property(nonatomic,strong)NSArray *listArray;
@@ -100,6 +101,12 @@
     }
     if (indexPath.row==3) {
         AFnetttttViewController *vc =[[AFnetttttViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+        
+    }
+    if (indexPath.row==4) {
+        TopsearchViewController *vc =[[TopsearchViewController alloc]init];
+        
         [self.navigationController pushViewController:vc animated:YES];
         
     }
