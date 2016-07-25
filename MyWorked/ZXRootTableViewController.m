@@ -94,14 +94,14 @@
         
     }
    
-    if (indexPath.row==3) {
+    if (indexPath.row==2) {
         ViewActionViewController *vc =[[ViewActionViewController alloc]init];
-        
+        NSLog(@"kkkk");
         [self.navigationController pushViewController:vc animated:YES];
         
     }
     
-    if (indexPath.row==4) {
+    if (indexPath.row==3) {
         MideasTableViewController *vc =[[MideasTableViewController alloc]init];
         
         [self.navigationController pushViewController:vc animated:YES];

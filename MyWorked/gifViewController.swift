@@ -51,7 +51,7 @@ class gifViewController: UIViewController {
         
         let label = UILabel()
         label.frame = CGRectMake(10, 250, self.view.frame.size.width-20, 300)
-        label.numberOfLines = 0;
+        label.numberOfLines = 0
         label.textColor = UIColor.blueColor()
         label.font = UIFont.systemFontOfSize(15)
         label.text = "其实根本不用pod 只要把JWAnimatedImage文件夹拖进来，再导入 imageIO.framework就可以了"
