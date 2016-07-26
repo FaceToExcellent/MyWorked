@@ -34,7 +34,7 @@ class gifViewController: UIViewController {
         
        
         
-        //咋用不了呢   全都是 pod 妈的让我杂用
+        //咋用不了呢   全都是 pod 妈的让我杂用 oc 用sdWebimage 网络本地都可以
         let manager = JWAnimationManager(memoryLimit:20)
         
         let url = NSBundle.mainBundle().URLForResource("test", withExtension: "gif")!
