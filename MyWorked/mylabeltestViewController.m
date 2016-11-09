@@ -23,12 +23,12 @@
     label.backgroundColor=[UIColor grayColor];
     label.font=[UIFont systemFontOfSize:10];
      //[label relandstringwithColor:[UIColor purpleColor] range:NSMakeRange(0, 3) string:@"测试来反正，巴拉巴拉巴拉拉拔"];
-    label.text= @"In a storyboard-based application";
+    label.text= @"共10000款珠宝";
     //[label relandstringwithColorred:0.5 green:0 blue:0.5 alpha:1 range:NSMakeRange(2, 5)];
-    [label relandstringwithColor:[UIColor purpleColor] range:NSMakeRange(2, 6)];
+    [label relandstringwithColor:[UIColor purpleColor] range:NSMakeRange(2,label.text.length-3)];
     
-    [label setlabelfontwithRang:NSMakeRange(2, 15) font:[UIFont systemFontOfSize:25]];
-    [label setHollowwordsWtihRang:NSMakeRange(7, 10)];
+//    [label setlabelfontwithRang:NSMakeRange(2, 15) font:[UIFont systemFontOfSize:25]];
+//    [label setHollowwordsWtihRang:NSMakeRange(7, 10)];
     
     
     [self.view addSubview:label];

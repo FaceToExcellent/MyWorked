@@ -35,25 +35,25 @@ class gifViewController: UIViewController {
        
         
         //咋用不了呢   全都是 pod 妈的让我杂用 oc 用sdWebimage 网络本地都可以
-        let manager = JWAnimationManager(memoryLimit:20)
-        
-        let url = NSBundle.mainBundle().URLForResource("test", withExtension: "gif")!
-        let imageData = NSData(contentsOfURL:url)
-        
-        let image = UIImage(animatedImage:imageData!)
-        let imageview = UIImageView(animatedImage: image, manager:manager,loopTime: -1)
-        imageview.frame = CGRect(x: 7.0, y: 50.0, width: 400.0, height: 224.0)
-        view.addSubview(imageview)
+//        let manager = JWAnimationManager(memoryLimit:20)
+//        
+//        let url = Bundle.main.url(forResource: "test", withExtension: "gif")!
+//        let imageData = try? Data(contentsOf: url)
+//        
+//        let image = UIImage(animatedImage:imageData!)
+//        let imageview = UIImageView(animatedImage: image, manager:manager,loopTime: -1)
+//        imageview.frame = CGRect(x: 7.0, y: 50.0, width: 400.0, height: 224.0)
+//        view.addSubview(imageview)
     }
 
     
     func makelabel(){
         
         let label = UILabel()
-        label.frame = CGRectMake(10, 250, self.view.frame.size.width-20, 300)
+        label.frame = CGRect(x: 10, y: 250, width: self.view.frame.size.width-20, height: 300)
         label.numberOfLines = 0
-        label.textColor = UIColor.blueColor()
-        label.font = UIFont.systemFontOfSize(15)
+        label.textColor = UIColor.blue
+        label.font = UIFont.systemFont(ofSize: 15)
         label.text = "其实根本不用pod 只要把JWAnimatedImage文件夹拖进来，再导入 imageIO.framework就可以了"
         self.view.addSubview(label)
         
