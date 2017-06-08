@@ -20,4 +20,6 @@
 //设置空心
 -(UILabel *)setHollowwordsWtihRang:(NSRange)range;
 -(UILabel *)setHollowwordsWtihRang:(NSRange)range fNum:(CGFloat)fNum;
+//添加图片
+-(UILabel*)addimageViewWithImage:(NSString*)imageName size:(CGSize)imagesize;
 @end

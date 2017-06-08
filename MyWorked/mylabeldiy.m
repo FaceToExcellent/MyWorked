@@ -77,4 +77,20 @@
     return self;
 }
 
+-(UILabel*)addimageViewWithImage:(NSString*)imageName size:(CGSize)imagesize{
+   
+    NSMutableAttributedString * string =(NSMutableAttributedString*)self.attributedText;
+    NSTextAttachment * attch = [[NSTextAttachment alloc]init];
+    attch.image = [UIImage imageNamed:imageName];
+    attch.bounds = CGRectMake(0, 0,imagesize.width, imagesize.height);
+    
+    NSAttributedString * str  =[NSAttributedString attributedStringWithAttachment:attch];
+    [string appendAttributedString:str];
+    
+    self.attributedText = string;
+    
+    
+    return self;
+}
+
 @end
