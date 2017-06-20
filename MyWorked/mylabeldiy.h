@@ -22,4 +22,11 @@
 -(UILabel *)setHollowwordsWtihRang:(NSRange)range fNum:(CGFloat)fNum;
 //添加图片
 -(UILabel*)addimageViewWithImage:(NSString*)imageName size:(CGSize)imagesize;
+//添加行间距
+- (UILabel*)changeLineSpaceForLabelSpace:(float)space;
+//添加字间距
+- (UILabel*)changeWordSpaceForLabelSpace:(float)space;
+//添加字间距和行间距
+- (UILabel*)changeSpaceForLabelLineSpace:(float)lineSpace WordSpace:(float)wordSpace ;
+
 @end
