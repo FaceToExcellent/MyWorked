@@ -93,4 +93,39 @@
     return self;
 }
 
+
+- (UILabel*)changeLineSpaceForLabelSpace:(float)space {
+    
+   NSMutableAttributedString * string =(NSMutableAttributedString*)self.attributedText;
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+    [paragraphStyle setLineSpacing:space];
+    [string addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, [string length])];
+    self.attributedText = string;
+    return self;
+    
+}
+
+- (UILabel*)changeWordSpaceForLabelSpace:(float)space {
+    
+    
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:self.text attributes:@{NSKernAttributeName:@(space)}];
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+    [attributedString addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, [self.text length])];
+    self.attributedText = attributedString;
+    
+    return self;
+}
+
+- (UILabel*)changeSpaceForLabelLineSpace:(float)lineSpace WordSpace:(float)wordSpace {
+    
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:self.text attributes:@{NSKernAttributeName:@(wordSpace)}];
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+    [paragraphStyle setLineSpacing:lineSpace];
+    [attributedString addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, [self.text length])];
+    self.attributedText = attributedString;
+    return  self;
+    
+}
+
+
 @end
